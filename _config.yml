@@ -17,9 +17,9 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", file: "/chun.pdf",icon: home}
+  - {title: "CV", file: "chun.pdf",icon: home}
   - {title: "CompactObject project", url: "https://chunhuangphy.github.io/CompactOject/"}
-  - {title: "Research", file: "/research.md"}
+  - {title: "Research", file: "Research.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:chun.h@wustl.edu"}
