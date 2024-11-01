@@ -24,7 +24,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:chun.h@wustl.edu"}
   - {title: Github, icon: github, url: "https://github.com/ChunHuangPhy"}
   - {title: Twitter/X, icon: twitter, url: "https://x.com/ChunHuang20"}
-  - {title: CompactObject Package, icon: CompactObject, url: "https://chunhuangphy.github.io/CompactOject/"}
+ # - {title: CompactObject Package, icon: CompactObject, url: "https://chunhuangphy.github.io/CompactOject/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
