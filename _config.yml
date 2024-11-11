@@ -18,7 +18,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "CV", file: "chun.pdf"}
-  - {title: "CompactObject project", url: "https://chunhuangphy.github.io/CompactOject/"}
+  - {title: "CompactObject project", url: "https://chunhuangphy.github.io/CompactObject/"}
   - {title: "Research", file: "research.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
