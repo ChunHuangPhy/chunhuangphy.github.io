@@ -19,12 +19,12 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "CV", file: "chun.pdf"}
   - {title: "CompactObject project", url: "https://chunhuangphy.github.io/CompactObject/"}
-  - {title: "Inspire-HEP", url: "https://inspirehep.net/authors/2831773?ui-citation-summary=true"}
   - {title: "Research", file: "research.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:chun.h@wustl.edu"}
+  - {title: Inspire-HEP, url: "https://inspirehep.net/authors/2831773?ui-citation-summary=true"}
   - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?user=oNADiKYAAAAJ&hl=en"}
+  - {title: Mail, icon: envelope, url: "mailto:chun.h@wustl.edu"}
   - {title: Github, icon: github, url: "https://github.com/ChunHuangPhy"}
   - {title: Twitter/X, icon: twitter, url: "https://x.com/ChunHuang20"}
 
