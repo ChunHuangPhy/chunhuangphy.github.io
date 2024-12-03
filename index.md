@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Who am I"
+title: "Chun Huang"
 ---
 
 ![Chuyi's Photo](chun_photo.JPG)
