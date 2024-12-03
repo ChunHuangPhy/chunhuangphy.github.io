@@ -17,9 +17,10 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {title: "Who am I", file: "index.md"}
   - {title: "CV", file: "cv.md"}
   - {title: "CompactObject", url: "https://chunhuangphy.github.io/CompactObject/"}
-  - {title: "Research", file: "research.md"}
+  - {title: "Research", file: "Research.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Inspire-HEP, url: "https://inspirehep.net/authors/2831773?ui-citation-summary=true"}
