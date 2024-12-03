@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", file: "cv.pdf"}
+  - {title: "CV", file: "cv.md"}
   - {title: "CompactObject project", url: "https://chunhuangphy.github.io/CompactObject/"}
   - {title: "Research", file: "research.md"}
 
