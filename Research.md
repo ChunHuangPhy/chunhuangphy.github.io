@@ -7,7 +7,7 @@ My research interests have evolved significantly from my undergraduate studies t
 
 ## 1. Bayesian Inference of Equation of State
 
-![Neutron star](astrobite.JPG)
+![Neutron star](astrobite.png)
 
 I have developed a strong interest in applying mass-radius measurements and other astrophysical constraints to determine the equation of state (EOS) of neutron stars. My research is among the first to apply these constraints to physics-motivated EOS models using Bayesian inference. Collaborating with Prof. Anna Watts and her group, as well as nuclear physicists such as Prof. Laura Tolos and Prof. Constança Providência, I have focused on applying Bayesian inference to Relativistic Mean Field (RMF) theory models.
 
@@ -29,7 +29,7 @@ Ongoing collaborations aim to constrain dark matter, nuclear parameterized EOS, 
 
 ## 2. Inference Methods Independent of Equation of State Assumptions
 
-![Inference_demonstration](demo.JPG)
+![Inference_demonstration](demo.png)
 
 This emerging field represents a significant expansion of my research portfolio. I have developed novel tools and approaches to analyze observational data independently of EOS assumptions, addressing common critiques when presenting my work. This method allows for the inference of critical quantities that are of broad interest across various physics communities, including nuclear physics, gravitational wave physics, and astrophysics.
 
@@ -42,7 +42,7 @@ Further work in EOS-independent inference is underway, in collaboration with an 
 
 ## 3. Physics-Motivated X-ray Hotspot Modeling
 
-![Hotspot](hotspot.JPG)
+![Hotspot](hotspot.png)
 
 This research is an integral part of my PhD thesis, focusing on modeling X-ray hotspots using X-ray pulse profile data from [NICER](https://heasarc.gsfc.nasa.gov/docs/nicer/) observations. In collaboration with Prof. Alex Chen at Washington University, the key motivation behind this work is to move beyond the reliance on meta hotspot models, which often lack systematization. Instead, I aim to employ phenomenological force-free hotspot models to perform inferences on pulse profile data.
 
@@ -54,7 +54,7 @@ I have developed a comprehensive pipeline for this inference process, which is p
 
 ## 4. Glitch Dynamics
 
-![Glitch](glitch.JPG)
+![Glitch](glitch.png)
 
 Pulsar glitches are fundamental phenomena characterized by sudden increases in a pulsar's spin rate. These abrupt changes are typically accompanied by phenomena such as delayed spin-up and persistent shifts in the spin-down rate. To investigate these dynamics, I have delved into the literature and analyzed radio observation data of the Crab pulsar's glitches. In collaboration with Prof. Xiaoping Zheng at Central China Normal University, my work focuses on examining different theoretical models of pulsar glitches through data analysis.
 
@@ -68,13 +68,12 @@ Additionally, I am interested in the theoretical modeling of glitch behavior usi
 
 ## 5. Other Fields
 
-![Polygon](polygon.JPG)
 
 I maintain a persistent interest in nonlinear dynamics and fluid dynamics. A significant part of my undergraduate experience involved studying fluid dynamics with fellow students at Central China Normal University (CCNU). One of our projects, which investigated a fascinating phenomenon named "Polygon vortex," has been summarized in an [arXiv submission](https://arxiv.org/abs/2108.09486), although it has not yet been published.
 
 - **Chun Huang** and Yuchen Jiang, “[Symmetry breaking Paradigm In Typical Laminar-Turbulence Transition System](https://arxiv.org/abs/2108.09486)”, arXiv:2108.09486 (2020).
 
-![doublepulsar](dp.JPG)
+![doublepulsar](dp.jpeg)
 
 I am also interested in other fluid dynamics physics problems and astrophysical observations in the X-ray band. I have collaborated with Prof. Michael Nowak on studying double pulsar systems. Currently, I am actively working with a colleague at Purple Mountain Observatory to perform observational constraints on double pulsar systems.
 
