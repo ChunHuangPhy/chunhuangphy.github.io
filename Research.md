@@ -68,6 +68,7 @@ Additionally, I am interested in the theoretical modeling of glitch behavior usi
 
 ## 5. Other Fields
 
+![polygon](maxresdefault-2.jpg)
 
 I maintain a persistent interest in nonlinear dynamics and fluid dynamics. A significant part of my undergraduate experience involved studying fluid dynamics with fellow students at Central China Normal University (CCNU). One of our projects, which investigated a fascinating phenomenon named "Polygon vortex," has been summarized in an [arXiv submission](https://arxiv.org/abs/2108.09486), although it has not yet been published.
 
