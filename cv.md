@@ -28,7 +28,7 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 
 ### Leading Author Publications
 
-1. <span style="color:cyan">**Chun Huang**</span>, “Equation of State Independent Determination on the Radius of a 1.4 Neutron Star Using Mass-Radius Measurements” (2024), Accepted publication in *ApJ Letters*. **(Single author)**
+1. <span style="color:cyan">**Chun Huang**</span>, “Equation of State Independent Determination on the Radius of a 1.4 Neutron Star Using Mass-Radius Measurements” (2024), [arXiv: 2412.10242](https://arxiv.org/abs/2412.10242), Accepted publication in *ApJ Letters*. **(Single author)**
 2. <span style="color:cyan">**Chun Huang**</span>, Tuhin Malik, João Cartaxo, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, John Groger, Xieyuan Dong, Nicole Osborn, Nathan Whitsett, Zhiheng Wang, Constança Providência, Micaela Oertel, Alexander Y. Chen, Laura Tolos, and Anna Watts, “CompactObject: An open-source Python package for full-scope neutron star equation of state inference”, [arXiv: 2411.14615](https://arxiv.org/abs/2411.14615), (2024), Submitted to *JOSS*. **(First and corresponding author)**
 3. Wenli Yuan, <span style="color:cyan">**Chun Huang**</span>, Chen Zhang, Enping Zhou, Renxin Xu, “Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814”, [arXiv: 2411.14938](https://arxiv.org/abs/2411.14938), (2024), Submitted to *PRD*.
 4. <span style="color:cyan">**Chun Huang**</span>, Laura Tolos, Constança Providência, and Anna Watts, “Constraining a relativistic mean field model using neutron star mass-radius measurements II: Hyperonic models”, [arXiv: 2410.14572](https://arxiv.org/abs/2410.14572), (2024), Submitted to *MNRAS*. **(First and corresponding author)**
