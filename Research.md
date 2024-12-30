@@ -13,7 +13,7 @@ I have developed a strong interest in applying mass-radius measurements and othe
 
 **Key Publications:**
 - **Chun Huang**, Geert Raaijmakers, Anna Watts, Laura Tolos, Constança Providência, “[Constraining a relativistic mean field model using neutron star mass–radius measurements I: nucleonic models]((https://academic.oup.com/mnras/article/529/4/4650/7634362))”, *MNRAS* (2023).
-- **Chun Huang**, Laura Tolos, Constança Providência, and Anna Watts, “[Constraining a relativistic mean field model using neutron star mass–radius measurements II: Hyperonic models](https://arxiv.org/abs/2410.14572)”, arXiv:2410.14572 (2024), submitted to *MNRAS*.
+- **Chun Huang**, Laura Tolos, Constança Providência, and Anna Watts, “Constraining a relativistic mean field model using neutron star mass-radius measurements II: Hyperonic models”, Monthly Notices of the Royal Astronomical Society, 2024, [https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2792/7929867](https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2792/7929867) .
 
 This research started during the pandemic and has spanned a significant period. I attended a summer school at Northwestern University, where I developed a Bayesian inference package named [**CompactObject**](https://github.com/ChunHuangPhy/CompactObject). This open-source package is designed for Bayesian inference on EOS constraints, featuring a user-friendly and extensible structure. Initially led by me, the project has since expanded through collaborations with researchers from the EU, China, and Washington University. The package now supports seven different EOS models, ranging from phenomenological to meta-models, making it a powerful tool in the community.
 
