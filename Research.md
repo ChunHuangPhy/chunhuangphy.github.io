@@ -36,7 +36,7 @@ This emerging field represents a significant expansion of my research portfolio.
 This research has culminated in my first single-author paper, marking my establishment as an independent researcher in this field.
 
 **Key Publication:**
-- **Chun Huang**</span>, “Equation of State Independent Determination on the Radius of a 1.4 $M_{\odot}$ Neutron Star Using Mass-Radius Measurements” (2024), *The Astrophysical Journal Letters*, Volume 978, Number 1, [https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c](https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c).
+- **Chun Huang**, “Equation of State Independent Determination on the Radius of a 1.4 $M_{\odot}$ Neutron Star Using Mass-Radius Measurements” (2024), *The Astrophysical Journal Letters*, Volume 978, Number 1, [https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c](https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c).
 
 Further work in EOS-independent inference is underway, in collaboration with an undergraduate student at Washington University and Prof. Alex Chen.
 
