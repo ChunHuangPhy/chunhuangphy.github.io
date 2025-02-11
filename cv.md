@@ -28,17 +28,19 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 
 ### Leading Author Publications
 
-1. <span style="color:cyan">**Chun Huang**</span>, “Equation of State Independent Determination on the Radius of a 1.4 $M_{\odot}$ Neutron Star Using Mass-Radius Measurements” (2024), *The Astrophysical Journal Letters*, Volume 978, Number 1, [https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c](https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c). **(Single author)**
-2. <span style="color:cyan">**Chun Huang**</span>, Tuhin Malik, João Cartaxo, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, John Groger, Xieyuan Dong, Nicole Osborn, Nathan Whitsett, Zhiheng Wang, Constança Providência, Micaela Oertel, Alexander Y. Chen, Laura Tolos, and Anna Watts, “CompactObject: An open-source Python package for full-scope neutron star equation of state inference”, [arXiv: 2411.14615](https://arxiv.org/abs/2411.14615), (2024), Submitted to *JOSS*. **(First and corresponding author)**
-3. Wenli Yuan, <span style="color:cyan">**Chun Huang**</span>, Chen Zhang, Enping Zhou, Renxin Xu, “Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814”, [arXiv: 2411.14938](https://arxiv.org/abs/2411.14938), (2024), Submitted to *PRD*.
-4. <span style="color:cyan">**Chun Huang**</span>, Laura Tolos, Constança Providência, and Anna Watts, “Constraining a relativistic mean field model using neutron star mass-radius measurements II: Hyperonic models”, Monthly Notices of the Royal Astronomical Society, 2024, [https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2792/7929867](https://doi.org/10.1093/mnras/stae2792) . **(First and corresponding author)**
-5. <span style="color:cyan">**Chun Huang**</span> and Xiaoping Zheng, “Bayesian Insights into post-Glitch Dynamics: Model comparison and parameter constraint from decades-long observation data of the Crab pulsar”, [arXiv: 2409.18432](https://arxiv.org/abs/2409.18432), (2024). **(First author)**
-6. <span style="color:cyan">**Chun Huang**</span>, Geert Raaijmakers, Anna Watts, Laura Tolos, Constança Providência, “Constraining a relativistic mean field model using neutron star mass–radius measurements I: nucleonic models”, Monthly Notices of the Royal Astronomical Society, Volume 529, Issue 4, April 2024, Pages 4650–4665, [https://doi.org/10.1093/mnras/stae844](https://doi.org/10.1093/mnras/stae844). **(First and corresponding author)**
-7. <span style="color:cyan">**Chun Huang**</span> and Yuchen Jiang, “Symmetry breaking Paradigm In Typical Laminar-Turbulence Transition System”, [arXiv: 2108.09486](https://arxiv.org/abs/2108.09486), (2020). **(First and corresponding author)**
+1.  <span style="color:cyan">**Chun Huang**</span>,Shashwat Sourav, "Constraining first-order phase transition inside neutron stars with application of Bayesian techniques on PSR J0437-4715 NICER data" (2025), Submitted to *ApJ*.
+2.  <span style="color:cyan">**Chun Huang**</span>, “Equation of State Independent Determination on the Radius of a 1.4 $M_{\odot}$ Neutron Star Using Mass-Radius Measurements” (2025), *The Astrophysical Journal Letters*, Volume 978, Number 1, [https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c](https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c). **(Single author)**
+3. <span style="color:cyan">**Chun Huang**</span>, Tuhin Malik, João Cartaxo, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, John Groger, Xieyuan Dong, Nicole Osborn, Nathan Whitsett, Zhiheng Wang, Constança Providência, Micaela Oertel, Alexander Y. Chen, Laura Tolos, and Anna Watts, “CompactObject: An open-source Python package for full-scope neutron star equation of state inference”, [arXiv: 2411.14615](https://arxiv.org/abs/2411.14615), (2024), Submitted to *JOSS*. **(First and corresponding author)**
+4. Wenli Yuan, <span style="color:cyan">**Chun Huang**</span>, Chen Zhang, Enping Zhou, Renxin Xu, “Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814”, [arXiv: 2411.14938](https://arxiv.org/abs/2411.14938), (2024), Submitted to *PRD*.
+5. <span style="color:cyan">**Chun Huang**</span>, Laura Tolos, Constança Providência, and Anna Watts, “Constraining a relativistic mean field model using neutron star mass-radius measurements II: Hyperonic models”, Monthly Notices of the Royal Astronomical Society, 2024, [https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2792/7929867](https://doi.org/10.1093/mnras/stae2792) . **(First and corresponding author)**
+6. <span style="color:cyan">**Chun Huang**</span> and Xiaoping Zheng, “Bayesian Insights into post-Glitch Dynamics: Model comparison and parameter constraint from decades-long observation data of the Crab pulsar”, [arXiv: 2409.18432](https://arxiv.org/abs/2409.18432), (2024). **(First author)**
+7. <span style="color:cyan">**Chun Huang**</span>, Geert Raaijmakers, Anna Watts, Laura Tolos, Constança Providência, “Constraining a relativistic mean field model using neutron star mass–radius measurements I: nucleonic models”, Monthly Notices of the Royal Astronomical Society, Volume 529, Issue 4, April 2024, Pages 4650–4665, [https://doi.org/10.1093/mnras/stae844](https://doi.org/10.1093/mnras/stae844). **(First and corresponding author)**
+8. <span style="color:cyan">**Chun Huang**</span> and Yuchen Jiang, “Symmetry breaking Paradigm In Typical Laminar-Turbulence Transition System”, [arXiv: 2108.09486](https://arxiv.org/abs/2108.09486), (2020). **(First and corresponding author)**
 
 ### Other Publications
 
-1. Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, “The unprecedentedly persistent spin-down increase of the Crab pulsar rules out external torque variations due to starquakes”, submitted to *ApJ*.
+1. KangKang Shao, <span style="color:cyan">**Chun Huang**</span>, Qin Qin, "Data determination of HQET parameters in inclusive charm decays", (2025), [arXiv: 2502.05901](https://arxiv.org/abs/2502.05901)
+2. Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, “The unprecedentedly persistent spin-down increase of the Crab pulsar rules out external torque variations due to starquakes”, submitted to *ApJ*.
 
 
 ---
@@ -77,7 +79,7 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 - Wenli Yuan (Peking University Postdoc)
 - Zhiheng Wang (WUSTL graduate student)
 - Tianzhe Zhou (Tsinghua graduate student)
-- Qiuli Wang (Nanjing PMO graduate student, co-advised with Prof. Daming Wei)
+- Qiuli Wang (Nanjing PMO graduate student)
 - John Groger (WUSTL graduate student)
 - Shashwat Sourav (WUSTL graduate student, co-advised with Prof. Henric Krawczynski)
 - Xieyuan Dong (Nankai University, master student, co-advised with Prof. JingNiu Hu)
