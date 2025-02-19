@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Who am I", file: "index.md"}
   - {title: "CV", file: "cv.md"}
   - {title: "Research", file: "Research.md"}
-  - {title: "CompactObject", url: "https://chunhuangphy.github.io/CompactObject/"}
+  - {title: "CompactObject package", url: "https://github.com/ChunHuangPhy/CompactObject"}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
