@@ -5,7 +5,7 @@ title: "Chun Huang | Curriculum Vitae"
 
 **Contact Information**  
 6644 Washington Ave – St Louis, MO, USA, 63112  
-+1 314-667-9167 – [chun.h@wustl.edu](mailto:chun.h@wustl.edu)  
+[chun.h@wustl.edu](mailto:chun.h@wustl.edu)  
 Date of Birth: 2000/06/19
 
 ---
