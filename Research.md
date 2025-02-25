@@ -50,7 +50,7 @@ This research is an integral part of my PhD thesis, focusing on modeling X-ray h
 I have developed a comprehensive pipeline for this inference process, which is profound in its ability to connect the neutron star's interior, surface, and exterior into a cohesive framework using solely X-ray observations. This holistic approach allows us to solve complex interactions within the neutron star system. Future plans include extending this methodology to incorporate multi-wavelength constraints and adapting it to handle arbitrary magnetic field configurations.
 
 **Key Publication:**
-- **Chun Huang**, Alexander Y. Chen, "Physics motivated models of pulsar X-ray hotspots: off-center dipole configurations", (2024) in preparation.
+- **Chun Huang**, Alexander Y. Chen, "Physics motivated models of pulsar X-ray hotspots: off-center dipole configurations", (2025), [arXiv: 2502.15881](https://arxiv.org/abs/2502.15881).
 
 
 ## 4. Glitch Dynamics
