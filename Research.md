@@ -24,7 +24,7 @@ This research started during the pandemic and has spanned a significant period. 
 The survey paper on CompactObject is currently in progress. I have also utilized this package to assist physicists worldwide in inferring various EOS models.
 
 **Additional Collaboration:**
-- Wenli Yuan, **Chun Huang**, Chen Zhang, Enping Zhou, Renxin Xu, “[Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814](https://arxiv.org/abs/2411.14938)”, arXiv:2411.14938 (2024), submitted to *PRD*.
+- Wenli Yuan, **Chun Huang**, Chen Zhang, Enping Zhou, Renxin Xu, “Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814”, *Phys. Rev. D*, 111, 063033 [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033)
 
 Ongoing collaborations aim to constrain dark matter, nuclear parameterized EOS, and phase transitions.
 
@@ -65,8 +65,7 @@ Pulsar glitches are fundamental phenomena characterized by sudden increases in a
 Additionally, I am interested in the theoretical modeling of glitch behavior using superfluid theory. Part of my undergraduate thesis is dedicated to this topic, where we examine past starquake models with new datasets. This work is currently being prepared for publication.
 
 **Key Publication:**
-- Xiaoping Zheng, WeiHua Wang, **Chun Huang**, and Jianping Yuan, “The unprecedentedly persistent spin-down increase of the Crab pulsar rules out external torque variations due to starquakes”, submitted to *ApJ*.
-
+- Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, Sheng-Jie Yuan “The Persistent Shift in Spin-down Rate Following the Largest Crab Pulsar Glitch Rules Out External Torque Variations due to Starquakes”, *The Astrophysical Journal*, Volume 982, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbca6), (2025). 
 ## 5. Other Fields
 
 ![polygon](maxresdefault-2.jpg)
