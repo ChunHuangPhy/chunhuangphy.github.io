@@ -38,11 +38,12 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 8. <span style="color:cyan">**Chun Huang**</span>, Geert Raaijmakers, Anna Watts, Laura Tolos, Constança Providência, “Constraining a relativistic mean field model using neutron star mass–radius measurements I: nucleonic models”, Monthly Notices of the Royal Astronomical Society, Volume 529, Issue 4, April 2024, Pages 4650–4665, [https://doi.org/10.1093/mnras/stae844](https://doi.org/10.1093/mnras/stae844). **(First and corresponding author)**
 9. <span style="color:cyan">**Chun Huang**</span> and Yuchen Jiang, “Symmetry breaking Paradigm In Typical Laminar-Turbulence Transition System”, [arXiv: 2108.09486](https://arxiv.org/abs/2108.09486), (2020). **(First and corresponding author)**
 
-### Other Publications
+### Significant contribution
+1. Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, Sheng-Jie Yuan “The Persistent Shift in Spin-down Rate Following the Largest Crab Pulsar Glitch Rules Out External Torque Variations due to Starquakes”, *The Astrophysical Journal*, Volume 982, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbca6), (2025). **Undergrad Thesis Work**
+
+### Co-author Publications
 
 1. KangKang Shao, <span style="color:cyan">**Chun Huang**</span>, Qin Qin, "Data determination of HQET parameters in inclusive charm decays", (2025), [arXiv: 2502.05901](https://arxiv.org/abs/2502.05901)
-2. Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, “The unprecedentedly persistent spin-down increase of the Crab pulsar rules out external torque variations due to starquakes”, submitted to *ApJ*.
-
 
 ---
 
