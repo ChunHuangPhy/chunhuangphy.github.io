@@ -45,6 +45,7 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 
 ### April Fool day posting: 
 1. <span style="color:cyan">**Chun Huang**</span>, "The Cosmic One-Eyed Smile: Revealing the Hidden Face of Mike Wazowski" [arXiv: 2503.22914](https://arxiv.org/abs/2503.22914) **Constraining Mike Wazowski hotspots on neutron star!!**
+   
 ---
 
 ## Posters and Presentations
