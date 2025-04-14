@@ -43,8 +43,8 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 1. Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, Sheng-Jie Yuan “The Persistent Shift in Spin-down Rate Following the Largest Crab Pulsar Glitch Rules Out External Torque Variations due to Starquakes”, *The Astrophysical Journal*, Volume 982, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbca6), (2025). **Undergrad Thesis Work**
 2. KangKang Shao, <span style="color:cyan">**Chun Huang**</span>, Qin Qin, "Data determination of HQET parameters in inclusive charm decays", (2025), [arXiv: 2502.05901](https://arxiv.org/abs/2502.05901)
 
-### April Fool day posting: 
-1. <span style="color:cyan">**Chun Huang**</span>, "The Cosmic One-Eyed Smile: Revealing the Hidden Face of Mike Wazowski" [arXiv: 2503.22914](https://arxiv.org/abs/2503.22914) **Constraining Mike Wazowski hotspots on neutron star!!**
+### April Fool's day posting: 
+1. <span style="color:cyan">**Chun Huang**</span>, "The Cosmic One-Eyed Smile: Revealing the Hidden Face of Mike Wazowski" [arXiv: 2503.22914](https://arxiv.org/abs/2503.22914) , (2025), Submitting to Monstser University Journal :) **Constraining Mike Wazowski hotspots on neutron star!!**
    
 ---
 
