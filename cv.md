@@ -63,6 +63,7 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 - 2024/06: Tsinghua Astronomy, Seminar Talk
 - 2024/06: Peking University, Astrophysics Seminar
 - 2024/11: UIUC, Nicolas Yunes, Group meeting talk
+- 2025/02: Invited for Interview **AAS Journal Author Series: Chun Huang, Discussing my ApJL paper: 2025ApJ…978L..14H**: [Click here to see the Interview](https://www.youtube.com/watch?v=BJersSpLanE)
 - 2025/03: Columbia, Department of Astronomy, THEA seminar talk
 
 ---
