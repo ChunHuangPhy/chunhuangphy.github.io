@@ -28,7 +28,7 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 
 ### Leading Author Publications
 
-1. <span style="color:cyan">**Chun Huang**</span>,“Model-Independent Determination of the Tidal Deformability of a 1.4 $M_{\odot}$ Neutron Star from Gravitational-Wave Measurements”, (2025), Accepted by *The Astrophysical Journal*, [arXiv: 2505.14822](https://arxiv.org/abs/2505.14822), 
+1. <span style="color:cyan">**Chun Huang**</span>,“Model-Independent Determination of the Tidal Deformability of a 1.4 $M_{\odot}$ Neutron Star from Gravitational-Wave Measurements”, (2025), *The Astrophysical Journal*, Volume 985, Number 2, [https://doi.org/10.3847/1538-4357/add5ef](https://doi.org/10.3847/1538-4357/add5ef) **(Single Author)** 
 2.  TianZhe Zhou, <span style="color:cyan">**Chun Huang**</span> “Hidden Twin Star Solutions from an Agnostic Speed-of-Sound Model: Confronting XTE J1814--338's Extreme Compactness”, [arXiv: 2504.08662](https://arxiv.org/abs/2504.08662), (2025), Submitted to *ApJ Letters*. **(Corresponding author)**
 3.  <span style="color:cyan">**Chun Huang**</span>, Alexander Y. Chen, “Physics motivated models of pulsar X-ray hotspots: off-center dipole configurations”, [arXiv:2502.15881](https://arxiv.org/abs/2502.15881), (2025), Submitted to *ApJ*. **(First and corresponding author)**
 4.  <span style="color:cyan">**Chun Huang**</span>, Shashwat Sourav, "Constraining first-order phase transition inside neutron stars with application of Bayesian techniques on PSR J0437-4715 NICER data", (2025), *The Astrophysical Journal*, Volume 983, Number 1, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbb67/meta) **(First and corresponding author)**
