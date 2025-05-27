@@ -37,9 +37,11 @@ This emerging field represents a significant expansion of my research portfolio.
 This research has culminated in my first two single-author paper, marking my establishment as an independent researcher in this field.
 
 **Key Publication:**
-- Constraining 1.4 $M_{\odot}$ Neutron star radius with a novel model independent study:
+
+1. Constraining 1.4 $M_{\odot}$ Neutron star radius with a novel model independent study:
 - **Chun Huang**, “Equation of State Independent Determination on the Radius of a 1.4 $M_{\odot}$ Neutron Star Using Mass-Radius Measurements” (2024), *The Astrophysical Journal Letters*, Volume 978, Number 1, [https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c](https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c).
-- Constraining 1.4 $M_{\odot}$ Neutron star Tidal deformalbility with a novel model independent study:
+
+2. Constraining 1.4 $M_{\odot}$ Neutron star Tidal deformalbility with a novel model independent study:
 - **Chun Huang**, “Model-Independent Determination of the Tidal Deformability of a 1.4 $M_{\odot}$ Neutron Star from Gravitational-Wave Measurements” (2025), *The Astrophysical Journal*, Volume 985, Number 2, [https://doi.org/10.3847/1538-4357/add5ef](https://doi.org/10.3847/1538-4357/add5ef)
 
 
