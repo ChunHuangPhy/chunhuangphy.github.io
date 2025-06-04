@@ -21,7 +21,10 @@ This research started during the pandemic and has spanned a significant period. 
 **Key Publication:**
 - **Chun Huang**, Tuhin Malik, João Cartaxo, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, John Groger, Xieyuan Dong, Nicole Osborn, Nathan Whitsett, Zhiheng Wang, Constança Providência, Micaela Oertel, Alexander Y. Chen, Laura Tolos, and Anna Watts, “[CompactObject: An open-source Python package for full-scope neutron star equation of state inference](https://arxiv.org/abs/2411.14615)”, arXiv:2411.14615 (2024), submitted to *JOSS*.
 
-The survey paper on CompactObject is currently in progress. I have also utilized this package to assist physicists worldwide in inferring various EOS models.
+**Large scale survey paper of EOS based on my CompactObject Package:**
+- João Cartaxo, **Chun Huang**, Tuhin Malik, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, Constança Providência, "A Complete Survey from the CompactObject Perspective on Equation of State Cross-Comparison Using Observational and Nuclear Experimental Constraints", [arXiv: 2506.03112](https://arxiv.org/abs/2506.03112), (2025), Submitted to ApJS.
+
+Another survey papers on CompactObject is currently in progress. I have also utilized this package to assist physicists worldwide in inferring various EOS models.
 
 **Additional Collaboration:**
 - Wenli Yuan, **Chun Huang**, Chen Zhang, Enping Zhou, Renxin Xu, “Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814”, *Phys. Rev. D*, 111, 063033 [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033)
