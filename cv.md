@@ -42,8 +42,10 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 12. <span style="color:cyan">**Chun Huang**</span> and Yuchen Jiang, “Symmetry breaking Paradigm In Typical Laminar-Turbulence Transition System”, [arXiv: 2108.09486](https://arxiv.org/abs/2108.09486), (2020). **(First and corresponding author)**
 
 ### Co-author Publications
-1. Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, Sheng-Jie Yuan “The Persistent Shift in Spin-down Rate Following the Largest Crab Pulsar Glitch Rules Out External Torque Variations due to Starquakes”, *The Astrophysical Journal*, Volume 982, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbca6), (2025). **Undergrad Thesis Work**
-2. KangKang Shao, <span style="color:cyan">**Chun Huang**</span>, Qin Qin, "Data determination of HQET parameters in inclusive charm decays", (2025), [arXiv: 2502.05901](https://arxiv.org/abs/2502.05901)
+1. Xue-Zhi Liu,  Premachand Mahapatra, <span style="color:cyan">**Chun Huang**</span>, Ayush Hazarika, Chiranjeeb Singha, Prasanta Kumar Das "Revealing Dark Matter’s Role in Neutron Stars Anisotropy: A Bayesian Approach Using Multi-messenger Observations", 2025, Submitted to *Phy.Rev.D*, [arXiv:2506.08376](https://arxiv.org/abs/2506.08376) **(Corresponding author)**
+2. Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, Sheng-Jie Yuan “The Persistent Shift in Spin-down Rate Following the Largest Crab Pulsar Glitch Rules Out External Torque Variations due to Starquakes”, *The Astrophysical Journal*, Volume 982, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbca6), (2025). **Undergrad Thesis Work**
+3. KangKang Shao, <span style="color:cyan">**Chun Huang**</span>, Qin Qin, "Data determination of HQET parameters in inclusive charm decays", (2025), [arXiv: 2502.05901](https://arxiv.org/abs/2502.05901)
+
 
 ### April Fool's day posting: 
 1. <span style="color:cyan">**Chun Huang**</span>, "The Cosmic One-Eyed Smile: Revealing the Hidden Face of Mike Wazowski" [arXiv: 2503.22914](https://arxiv.org/abs/2503.22914) , (2025), Submitting to Monstser University Journal :) **Constraining Mike Wazowski hotspots on neutron star!!**
