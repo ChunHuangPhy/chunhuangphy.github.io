@@ -60,6 +60,7 @@ I have developed a comprehensive pipeline for this inference process, which is p
 
 **Key Publication:**
 - **Chun Huang**, Alexander Y. Chen, "Physics motivated models of pulsar X-ray hotspots: off-center dipole configurations", (2025), [arXiv: 2502.15881](https://arxiv.org/abs/2502.15881).
+- TianZhe Zhou, <span style="color:cyan">**Chun Huang**</span> “GPU-Accelerated X-ray Pulse Profile Modeling”, [arXiv: 2510.07764](https://arxiv.org/abs/2510.07764), (2025), Submitted to *ApJS*.
 
 
 ## 4. Glitch Dynamics
