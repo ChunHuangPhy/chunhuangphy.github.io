@@ -28,23 +28,24 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 
 ### Leading Author Publications
 
-1. João Cartaxo, <span style="color:cyan">**Chun Huang**</span>, Tuhin Malik, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, Constança Providência, "A Complete Survey from the CompactObject Perspective on Equation of State Cross-Comparison Using Observational and Nuclear Experimental Constraints", [arXiv: 2506.03112](https://arxiv.org/abs/2506.03112), (2025), Submitted to ApJS. **(Corresponding author)**
-2. <span style="color:cyan">**Chun Huang**</span>,“Model-Independent Determination of the Tidal Deformability of a 1.4 $M_{\odot}$ Neutron Star from Gravitational-Wave Measurements”, (2025), *The Astrophysical Journal*, Volume 985, Number 2, [https://doi.org/10.3847/1538-4357/add5ef](https://doi.org/10.3847/1538-4357/add5ef) **(Single Author)** 
-3.  TianZhe Zhou, <span style="color:cyan">**Chun Huang**</span> “Hidden Twin Star Solutions from an Agnostic Speed-of-Sound Model: Confronting XTE J1814--338's Extreme Compactness”, [arXiv: 2504.08662](https://arxiv.org/abs/2504.08662), (2025), Submitted to *ApJ Letters*. **(Corresponding author)**
-4.  <span style="color:cyan">**Chun Huang**</span>, Alexander Y. Chen, “Physics motivated models of pulsar X-ray hotspots: off-center dipole configurations”, [arXiv:2502.15881](https://arxiv.org/abs/2502.15881), (2025), Submitted to *ApJ*. **(First and corresponding author)**
-5.  <span style="color:cyan">**Chun Huang**</span>, Shashwat Sourav, "Constraining first-order phase transition inside neutron stars with application of Bayesian techniques on PSR J0437-4715 NICER data", (2025), *The Astrophysical Journal*, Volume 983, Number 1, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbb67/meta) **(First and corresponding author)**
-6.  <span style="color:cyan">**Chun Huang**</span>, “Equation of State Independent Determination on the Radius of a 1.4 $M_{\odot}$ Neutron Star Using Mass-Radius Measurements” (2025), *The Astrophysical Journal Letters*, Volume 978, Number 1, [https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c](https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c). **(Single author)**
-7. <span style="color:cyan">**Chun Huang**</span>, Tuhin Malik, João Cartaxo, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, John Groger, Xieyuan Dong, Nicole Osborn, Nathan Whitsett, Zhiheng Wang, Constança Providência, Micaela Oertel, Alexander Y. Chen, Laura Tolos, and Anna Watts, “CompactObject: An open-source Python package for full-scope neutron star equation of state inference”, [arXiv: 2411.14615](https://arxiv.org/abs/2411.14615), (2024), Submitted to *JOSS*. **(First and corresponding author)**
-8. Wenli Yuan, <span style="color:cyan">**Chun Huang**</span>, Chen Zhang, Enping Zhou, Renxin Xu, “Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814”, *Phys. Rev. D*, 111, 063033,[https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033)
-9. <span style="color:cyan">**Chun Huang**</span>, Laura Tolos, Constança Providência, and Anna Watts, “Constraining a relativistic mean field model using neutron star mass-radius measurements II: Hyperonic models”, Monthly Notices of the Royal Astronomical Society, 2024, [https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2792/7929867](https://doi.org/10.1093/mnras/stae2792) . **(First and corresponding author)**
-10. <span style="color:cyan">**Chun Huang**</span> and Xiaoping Zheng, “Bayesian Insights into post-Glitch Dynamics: Model comparison and parameter constraint from decades-long observation data of the Crab pulsar”, Monthly Notices of the Royal Astronomical Society, Volume 542, Issue 4, October 2025, Pages 3198–3205, [https://doi.org/10.1093/mnras/staf1415](https://doi.org/10.1093/mnras/staf1415). **(First author)**
-11. <span style="color:cyan">**Chun Huang**</span>, Geert Raaijmakers, Anna Watts, Laura Tolos, Constança Providência, “Constraining a relativistic mean field model using neutron star mass–radius measurements I: nucleonic models”, Monthly Notices of the Royal Astronomical Society, Volume 529, Issue 4, April 2024, Pages 4650–4665, [https://doi.org/10.1093/mnras/stae844](https://doi.org/10.1093/mnras/stae844). **(First and corresponding author)**
-12. <span style="color:cyan">**Chun Huang**</span> and Yuchen Jiang, “Symmetry breaking Paradigm In Typical Laminar-Turbulence Transition System”, [arXiv: 2108.09486](https://arxiv.org/abs/2108.09486), (2020). **(First and corresponding author)**
+1. TianZhe Zhou, <span style="color:cyan">**Chun Huang**</span> “GPU-Accelerated X-ray Pulse Profile Modeling”, [arXiv: 2510.07764](https://arxiv.org/abs/2510.07764), (2025), Submitted to *ApJS*. **(Corresponding author)**
+2.  João Cartaxo, <span style="color:cyan">**Chun Huang**</span>, Tuhin Malik, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, Constança Providência, "A Complete Survey from the CompactObject Perspective on Equation of State Cross-Comparison Using Observational and Nuclear Experimental Constraints", [arXiv: 2506.03112](https://arxiv.org/abs/2506.03112), (2025), Submitted to ApJS. **(Corresponding author)**
+3. <span style="color:cyan">**Chun Huang**</span>,“Model-Independent Determination of the Tidal Deformability of a 1.4 $M_{\odot}$ Neutron Star from Gravitational-Wave Measurements”, (2025), *The Astrophysical Journal*, Volume 985, Number 2, [https://doi.org/10.3847/1538-4357/add5ef](https://doi.org/10.3847/1538-4357/add5ef) **(Single Author)** 
+4.  TianZhe Zhou, <span style="color:cyan">**Chun Huang**</span> “Hidden Twin Star Solutions from an Agnostic Speed-of-Sound Model: Confronting XTE J1814--338's Extreme Compactness”, [arXiv: 2504.08662](https://arxiv.org/abs/2504.08662), (2025), Submitted to *ApJ Letters*. **(Corresponding author)**
+5.  <span style="color:cyan">**Chun Huang**</span>, Alexander Y. Chen, “Physics motivated models of pulsar X-ray hotspots: off-center dipole configurations”, [arXiv:2502.15881](https://arxiv.org/abs/2502.15881), (2025), Submitted to *ApJ*. **(First and corresponding author)**
+6.  <span style="color:cyan">**Chun Huang**</span>, Shashwat Sourav, "Constraining first-order phase transition inside neutron stars with application of Bayesian techniques on PSR J0437-4715 NICER data", (2025), *The Astrophysical Journal*, Volume 983, Number 1, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbb67/meta) **(First and corresponding author)**
+7.  <span style="color:cyan">**Chun Huang**</span>, “Equation of State Independent Determination on the Radius of a 1.4 $M_{\odot}$ Neutron Star Using Mass-Radius Measurements” (2025), *The Astrophysical Journal Letters*, Volume 978, Number 1, [https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c](https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c). **(Single author)**
+8. <span style="color:cyan">**Chun Huang**</span>, Tuhin Malik, João Cartaxo, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, John Groger, Xieyuan Dong, Nicole Osborn, Nathan Whitsett, Zhiheng Wang, Constança Providência, Micaela Oertel, Alexander Y. Chen, Laura Tolos, and Anna Watts, “CompactObject: An open-source Python package for full-scope neutron star equation of state inference”, [arXiv: 2411.14615](https://arxiv.org/abs/2411.14615), (2024), Submitted to *JOSS*. **(First and corresponding author)**
+9. Wenli Yuan, <span style="color:cyan">**Chun Huang**</span>, Chen Zhang, Enping Zhou, Renxin Xu, “Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814”, *Phys. Rev. D*, 111, 063033,[https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033)
+10. <span style="color:cyan">**Chun Huang**</span>, Laura Tolos, Constança Providência, and Anna Watts, “Constraining a relativistic mean field model using neutron star mass-radius measurements II: Hyperonic models”, Monthly Notices of the Royal Astronomical Society, 2024, [https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2792/7929867](https://doi.org/10.1093/mnras/stae2792) . **(First and corresponding author)**
+11. <span style="color:cyan">**Chun Huang**</span> and Xiaoping Zheng, “Bayesian Insights into post-Glitch Dynamics: Model comparison and parameter constraint from decades-long observation data of the Crab pulsar”, Monthly Notices of the Royal Astronomical Society, Volume 542, Issue 4, October 2025, Pages 3198–3205, [https://doi.org/10.1093/mnras/staf1415](https://doi.org/10.1093/mnras/staf1415). **(First author)**
+12. <span style="color:cyan">**Chun Huang**</span>, Geert Raaijmakers, Anna Watts, Laura Tolos, Constança Providência, “Constraining a relativistic mean field model using neutron star mass–radius measurements I: nucleonic models”, Monthly Notices of the Royal Astronomical Society, Volume 529, Issue 4, April 2024, Pages 4650–4665, [https://doi.org/10.1093/mnras/stae844](https://doi.org/10.1093/mnras/stae844). **(First and corresponding author)**
+13. <span style="color:cyan">**Chun Huang**</span> and Yuchen Jiang, “Symmetry breaking Paradigm In Typical Laminar-Turbulence Transition System”, [arXiv: 2108.09486](https://arxiv.org/abs/2108.09486), (2020). **(First and corresponding author)**
 
 ### Co-author Publications
-1. Xue-Zhi Liu,  Premachand Mahapatra, <span style="color:cyan">**Chun Huang**</span>, Ayush Hazarika, Chiranjeeb Singha, Prasanta Kumar Das "Revealing Dark Matter’s Role in Neutron Stars Anisotropy: A Bayesian Approach Using Multi-messenger Observations", 2025, Submitted to *Phy.Rev.D*, [arXiv:2506.08376](https://arxiv.org/abs/2506.08376) **(Corresponding author)**
+1. Xue-Zhi Liu,  Premachand Mahapatra, <span style="color:cyan">**Chun Huang**</span>, Ayush Hazarika, Chiranjeeb Singha, Prasanta Kumar Das "Revealing Dark Matter’s Role in Neutron Stars Anisotropy: A Bayesian Approach Using Multi-messenger Observations", *Physical Review D*, 112, 083032, 2025, [DOI: https://doi.org/10.1103/zhs6-487x]([https://arxiv.org/abs/2506.08376](https://journals.aps.org/prd/abstract/10.1103/zhs6-487x)) **(Corresponding author)**
 2. Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, Sheng-Jie Yuan “The Persistent Shift in Spin-down Rate Following the Largest Crab Pulsar Glitch Rules Out External Torque Variations due to Starquakes”, *The Astrophysical Journal*, Volume 982, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbca6), (2025). **Undergrad Thesis Work**
-3. KangKang Shao, <span style="color:cyan">**Chun Huang**</span>, Qin Qin, "Data determination of HQET parameters in inclusive charm decays", (2025), [arXiv: 2502.05901](https://arxiv.org/abs/2502.05901)
+3. KangKang Shao, <span style="color:cyan">**Chun Huang**</span>, Qin Qin, “Data determination of HQET parameters in in- clusive charm decays”. The European Physical Journal C, 85, 1011 (2025), [DOI:10.1140/epjc/s10052- 025-14691-z](https://link.springer.com/article/10.1140/epjc/s10052-025-14691-z)
 
 
 ### April Fool's day posting: 
@@ -52,28 +53,28 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
    
 ---
 
-## Posters and Presentations
+## Recent Posters and Presentations
 
-- 2020/06: Beijing Normal University, Xiaosong Chen’s group
-- 2021/08: Huazhong University of Science and Technology
-- 2021/08: Lanzhou University, 5th round workshop on theoretical astrophysics
-- 2021/09: Peking University, 2021 PKU-DoA Undergraduate Astronomy Symposium talk
-- 2021/12: Tsung-Dao-Lee Institute, “Lun Dao” Doctoral Student Forum, Contributed Talk
-- 2024/03: MIT Kavli Institute, Invited Talk
-- 2024/03: Harvard CfA, Seminar Talk
-- 2024/03: Tufts, Seminar Talk
-- 2024/05: Groningen group meeting talk
-- 2024/06: Purdue Plasma Physics Conference, Contributed Poster
 - 2024/06: Tsinghua Astronomy, Seminar Talk
 - 2024/06: Peking University, Astrophysics Seminar
 - 2024/11: UIUC, Nicolas Yunes, Group meeting talk
 - 2025/02: Invited for Interview **AAS Journal Author Series: Chun Huang, Discussing my ApJL paper: 2025ApJ…978L..14H**: [Click here to see the Interview](https://www.youtube.com/watch?v=BJersSpLanE)
 - 2025/03: Columbia, Department of Astronomy, THEA seminar talk
-
+- 2025/05: Selected Talk, Princeton PCTS workshop, "Extreme Physics of Neutron Star Interiors"
+- 2025/05: Selected Talk, IReNA-CeNAM 2025: Frontiers in Nuclear Astrophysics Meeting
+- 2025/06: Invited Talk, UCLA physics seminar (remote)
+- 2025/08: Invited Talk, KIPAC Tea, Stanford Astronomy
+- 2025/08: Invited Talk, Multi-RAPTOR forum, UC Berkeley
+- 2025/08: IAS Astro coffee talk, Institute for Advanced Study
+- 2025/09: Invited Talk, MAT talk, MIT Kavli Institute
+- 2025/09: Invited Talk, ITC luncheon, Harvard ITC
+- 2025/09: Invited Talk, CfA seminar, Harvard CfA
+- 2025/10: Oral Presentation, HEAD 22 meeting, St Louis, MO
 ---
 
 ## Honors and Awards
 
+- 2025: Dean’s Award for Graduate Research Excellence, Semi-finalist, Washington University in St Louis
 - 2022-2024: Washington University, Art-Science Fellowship
 - 2021: SJTU Tsung-Dao-Lee Institute, “Lun Dao” Doctoral Student Forum, First Prize (as the only undergrad attendee)
 - 2021: PKU-DoA Undergraduate Astronomy Symposium, Best Report Second Prize, Ranked 8/40
