@@ -5,7 +5,7 @@ title: "Chun Huang"
 
 ![Chun's Photo](chun_photo.JPG)
 
-I am a third-year PhD candidate in the [Physics and Astronomy Department at Washington University in St. Louis](https://physics.wustl.edu) working with [Alex Chen](https://physics.wustl.edu/people/alex-chen), [Yajie Yuan](https://physics.wustl.edu/people/yajie-yuan), and [Michael Nowak](https://physics.wustl.edu/people/michael-nowak). I am currently interested in constructing a physical understanding of X-ray hotspot configurations using X-ray timing data from [NICER](https://heasarc.gsfc.nasa.gov/docs/nicer/) and [XMM-Newton](https://www.cosmos.esa.int/web/xmm-newton). Additionally, I utilize the inferred mass-radius measurements from these analyses, along with multimessenger observations and nuclear physics input, to constrain the neutron star interior. 
+I am a Fourth-year PhD candidate in the [Physics and Astronomy Department at Washington University in St. Louis](https://physics.wustl.edu) working with [Alex Chen](https://physics.wustl.edu/people/alex-chen) (I am on the job market now!). I am currently interested in constructing a physical understanding of X-ray hotspot configurations using X-ray timing data from [NICER](https://heasarc.gsfc.nasa.gov/docs/nicer/) and [XMM-Newton](https://www.cosmos.esa.int/web/xmm-newton). Additionally, I utilize the inferred mass-radius measurements from these analyses, along with multimessenger observations and nuclear physics input, to constrain the neutron star interior. 
 
 I am the leader and developer of a collaborative Bayesian inference package for neutron star physics, working with over 10 scientists from the US, EU, and China: [CompactObject](https://github.com/ChunHuangPhy/CompactObject).
 
