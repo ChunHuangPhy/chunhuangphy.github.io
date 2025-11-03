@@ -70,6 +70,7 @@ Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
 - 2025/09: Invited Talk, ITC luncheon, Harvard ITC
 - 2025/09: Invited Talk, CfA seminar, Harvard CfA
 - 2025/10: Oral Presentation, HEAD 22 meeting, St Louis, MO
+  
 ---
 
 ## Honors and Awards
