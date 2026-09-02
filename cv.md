@@ -44,7 +44,7 @@ slug: cv
       <p>My work spans pulsar magnetospheres, physics-motivated surface emission, relativistic X-ray pulse-profile modeling, equation-of-state inference, multimessenger constraints, and open scientific software.</p>
       <div class="cv-row">
         <time>Current</time>
-        <div><h3>CompactObject lead developer</h3><p>Coordinate an international collaboration building open-source Bayesian inference tools for neutron-star equations of state.</p></div>
+        <div><h3><a href="https://github.com/ChunHuangPhy/CompactObject">CompactObject</a> lead developer</h3><p>Coordinate an international collaboration building open-source Bayesian inference tools for neutron-star equations of state.</p></div>
       </div>
       <div class="cv-row">
         <time>Ph.D.</time>
@@ -52,7 +52,7 @@ slug: cv
       </div>
       <div class="cv-row">
         <time>Current</time>
-        <div><h3><a href="https://github.com/ChunHuangPhy/gpu_ppm">GPU-PPM co-developer</a></h3><p>Co-developed a GPU-accelerated X-ray pulse-profile modeling code for fast likelihood evaluation and Bayesian inference.</p></div>
+        <div><h3><a href="https://github.com/ChunHuangPhy/gpu_ppm">GPU-PPM</a> co-developer</h3><p>Co-developed a GPU-accelerated X-ray pulse-profile modeling code for fast likelihood evaluation and Bayesian inference.</p></div>
       </div>
       <p class="cv-note">For the complete publication record, see the <a href="{{ '/publications/' | relative_url }}">publications page</a>. The CV is presented on this website and is not offered as a downloadable file.</p>
     </section>

@@ -20,13 +20,20 @@ slug: publications
     <label>Search
       <input type="search" data-publication-search placeholder="Search by title" autocomplete="off">
     </label>
+    <label>Year
+      <select data-publication-year>
+        <option value="">All years</option>
+        {% assign years = site.data.publications | map: 'year' | uniq | sort | reverse %}
+        {% for year in years %}<option value="{{ year }}">{{ year }}</option>{% endfor %}
+      </select>
+    </label>
   </div>
   <p class="publication-count" data-publication-count aria-live="polite">{{ site.data.publications | size }} publications</p>
 
   <div class="publication-list">
     {% assign papers = site.data.publications | sort: 'year' | reverse %}
     {% for paper in papers %}
-    <article class="publication-item" data-search="{{ paper.title | downcase | escape }}">
+    <article class="publication-item" data-year="{{ paper.year }}" data-search="{{ paper.title | downcase | escape }}">
       <span class="publication-year">{{ paper.year }}</span>
       <div>
         <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>

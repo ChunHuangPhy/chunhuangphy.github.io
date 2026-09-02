@@ -108,9 +108,9 @@ main > article { width: min(760px, calc(100% - 2.5rem)); margin-inline: auto; pa
 .sim-readout strong { color: var(--navy); font-variant-numeric: tabular-nums; }
 .method-note { max-width: 850px; margin-top: 1.1rem; color: var(--muted); font-size: .74rem; }
 
-.publication-tools { max-width: 34rem; padding: 2rem 0; border-bottom: 1px solid var(--line); }
+.publication-tools { display: grid; grid-template-columns: minmax(0, 2fr) minmax(10rem, 1fr); gap: .8rem; max-width: 46rem; padding: 2rem 0; border-bottom: 1px solid var(--line); }
 .publication-tools label { color: var(--muted); font-size: .7rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
-.publication-tools input { width: 100%; min-height: 42px; margin-top: .35rem; padding: .45rem .55rem; border: 1px solid var(--line); border-radius: 0; background: #fff; color: var(--ink); font: inherit; font-size: .82rem; }
+.publication-tools input, .publication-tools select { width: 100%; min-height: 42px; margin-top: .35rem; padding: .45rem .55rem; border: 1px solid var(--line); border-radius: 0; background: #fff; color: var(--ink); font: inherit; font-size: .82rem; }
 .publication-count { margin: 1.05rem 0 0; color: var(--muted); font-size: .78rem; }
 .publication-list { padding-bottom: 5rem; }
 .publication-item { display: grid; grid-template-columns: 60px minmax(0, 1fr); gap: 1.4rem; padding: 1.45rem 0; border-bottom: 1px solid var(--line); }
@@ -162,6 +162,7 @@ main > article { width: min(760px, calc(100% - 2.5rem)); margin-inline: auto; pa
   .about-grid .portrait { width: min(280px, 80vw); }
   .research-chapter { grid-template-columns: 1fr; gap: .45rem; padding: 3.3rem 0; }
   .sim-controls, .sim-figures { grid-template-columns: 1fr; }
+  .publication-tools { grid-template-columns: 1fr; }
   .selected-paper { grid-template-columns: 50px minmax(0, 1fr); }
   .selected-paper .venue { grid-column: 2; }
   .cv-row { grid-template-columns: 1fr; gap: .15rem; }
@@ -173,7 +174,7 @@ main > article { width: min(760px, calc(100% - 2.5rem)); margin-inline: auto; pa
   :root { --paper: #11181d; --ink: #e3e7e5; --navy: #edf2f0; --muted: #aeb8b8; --line: #344248; --accent: #76b8c1; --warm: #de8a57; }
   .site-header { background: rgba(17,24,29,.97); }
   .lede { color: #c4cccb; }
-  .publication-tools input { background: #182126; }
+  .publication-tools input, .publication-tools select { background: #182126; }
   .chart-grid { stroke: #2b373c; }
   .research-figure img { background: #fff; }
 }

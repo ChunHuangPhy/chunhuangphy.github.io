@@ -486,25 +486,29 @@
     render();
   }
 
-  function initializePublicationSearch() {
+  function initializePublicationFilters() {
     var root = document.querySelector("[data-publications]");
     if (!root) return;
     var search = root.querySelector("[data-publication-search]");
+    var year = root.querySelector("[data-publication-year]");
     var items = Array.prototype.slice.call(root.querySelectorAll(".publication-item"));
     var count = root.querySelector("[data-publication-count]");
 
-    function applySearch() {
+    function applyFilters() {
       var query = search.value.trim().toLowerCase();
+      var selectedYear = year.value;
       var visible = 0;
       items.forEach(function (item) {
         var matchesSearch = !query || item.getAttribute("data-search").indexOf(query) !== -1;
-        item.hidden = !matchesSearch;
+        var matchesYear = !selectedYear || item.getAttribute("data-year") === selectedYear;
+        item.hidden = !(matchesSearch && matchesYear);
         if (!item.hidden) visible += 1;
       });
       count.textContent = visible + (visible === 1 ? " publication" : " publications");
     }
 
-    search.addEventListener("input", applySearch);
+    search.addEventListener("input", applyFilters);
+    year.addEventListener("change", applyFilters);
   }
 
   window.PulseProfileModel = Object.freeze({
@@ -515,6 +519,6 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     initializeSimulator();
-    initializePublicationSearch();
+    initializePublicationFilters();
   });
 }());
