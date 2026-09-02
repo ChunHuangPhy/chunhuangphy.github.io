@@ -13,7 +13,7 @@ slug: home
   <div class="intro-copy">
     <p class="eyebrow">Ph.D. candidate in Physics</p>
     <h1>Chun Huang</h1>
-    <p class="lede">I am a fourth-year Ph.D. candidate in the Department of Physics at Washington University in St. Louis, working with Alexander Y. Chen, Yajie Yuan, and Michael Nowak.</p>
+    <p class="lede">I am a final-year Ph.D. candidate in the Department of Physics at Washington University in St. Louis, advised by Alexander Y. Chen.</p>
     <p>I study how pulsar magnetospheres produce X-ray hotspots, and how pulse-profile and multimessenger observations can constrain neutron-star radii and dense matter.</p>
     <p class="availability">I am seeking postdoctoral positions beginning in 2027.</p>
     <div class="intro-links">

@@ -36,6 +36,7 @@ slug: research
       <p class="eyebrow">Surface emission</p>
       <h2>Relativistic X-ray pulse-profile modeling</h2>
       <p>As a neutron star rotates, its hotspots produce a periodic X-ray signal shaped by the viewing geometry, special-relativistic motion, gravitational redshift, and light bending. I work on forward models that connect physical surface maps to these pulse profiles and on GPU acceleration that makes complex models practical inside Bayesian inference.</p>
+      <p>I also co-developed <a href="https://github.com/ChunHuangPhy/gpu_ppm">GPU-PPM</a>, a GPU-accelerated X-ray pulse-profile modeling code designed for fast likelihood evaluation and Bayesian inference.</p>
       <p><a href="https://doi.org/10.1051/0004-6361/202659305">GPU-Accelerated X-ray Pulse Profile Modeling</a> · <em>Astronomy & Astrophysics</em> 709, A111 (2026)</p>
       <p>The <a href="{{ '/#pulse-profile-demo' | relative_url }}">interactive calculation on the homepage</a> is a compact educational version of this forward-modeling idea. It uses generic parameters and contains no observational fit or unpublished result.</p>
     </div>

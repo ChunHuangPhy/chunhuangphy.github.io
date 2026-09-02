@@ -18,28 +18,7 @@ slug: publications
 <section class="shell" data-publications>
   <div class="publication-tools">
     <label>Search
-      <input type="search" data-publication-search placeholder="Title or author">
-    </label>
-    <label>Topic
-      <select data-publication-filter="topic">
-        <option value="">All topics</option>
-        {% assign topics = site.data.publications | map: 'topic' | uniq | sort %}
-        {% for topic in topics %}<option value="{{ topic | downcase }}">{{ topic }}</option>{% endfor %}
-      </select>
-    </label>
-    <label>Year
-      <select data-publication-filter="year">
-        <option value="">All years</option>
-        {% assign years = site.data.publications | map: 'year' | uniq | sort | reverse %}
-        {% for year in years %}<option value="{{ year }}">{{ year }}</option>{% endfor %}
-      </select>
-    </label>
-    <label>Role
-      <select data-publication-filter="role">
-        <option value="">All roles</option>
-        {% assign roles = site.data.publications | map: 'role' | uniq | sort %}
-        {% for role in roles %}<option value="{{ role | downcase }}">{{ role }}</option>{% endfor %}
-      </select>
+      <input type="search" data-publication-search placeholder="Search by title" autocomplete="off">
     </label>
   </div>
   <p class="publication-count" data-publication-count aria-live="polite">{{ site.data.publications | size }} publications</p>
@@ -47,12 +26,10 @@ slug: publications
   <div class="publication-list">
     {% assign papers = site.data.publications | sort: 'year' | reverse %}
     {% for paper in papers %}
-    <article class="publication-item" data-topic="{{ paper.topic | downcase }}" data-year="{{ paper.year }}" data-role="{{ paper.role | downcase }}" data-search="{{ paper.title | append: ' ' | append: paper.authors | downcase | escape }}">
+    <article class="publication-item" data-search="{{ paper.title | downcase | escape }}">
       <span class="publication-year">{{ paper.year }}</span>
       <div>
         <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
-        <p class="publication-authors">{{ paper.authors }}</p>
-        <p class="publication-meta">{{ paper.venue }} · {{ paper.role }}</p>
       </div>
     </article>
     {% endfor %}

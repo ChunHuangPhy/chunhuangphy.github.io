@@ -30,7 +30,7 @@ slug: cv
       <p class="eyebrow">Education</p>
       <div class="cv-row">
         <time>2022–present</time>
-        <div><h3>Ph.D. in Physics · Washington University in St. Louis</h3><p>Advisors: Alexander Y. Chen, Yajie Yuan, and Michael Nowak</p></div>
+        <div><h3>Ph.D. in Physics · Washington University in St. Louis</h3><p>Advisor: Alexander Y. Chen · Expected graduation year: 2027</p></div>
       </div>
       <div class="cv-row">
         <time>2018–2022</time>
@@ -49,6 +49,10 @@ slug: cv
       <div class="cv-row">
         <time>Ph.D.</time>
         <div><h3>Physics-based X-ray hotspot modeling</h3><p>Develop analytic magnetosphere-to-surface models and accelerated relativistic forward calculations for pulse-profile inference.</p></div>
+      </div>
+      <div class="cv-row">
+        <time>Current</time>
+        <div><h3><a href="https://github.com/ChunHuangPhy/gpu_ppm">GPU-PPM co-developer</a></h3><p>Co-developed a GPU-accelerated X-ray pulse-profile modeling code for fast likelihood evaluation and Bayesian inference.</p></div>
       </div>
       <p class="cv-note">For the complete publication record, see the <a href="{{ '/publications/' | relative_url }}">publications page</a>. The CV is presented on this website and is not offered as a downloadable file.</p>
     </section>

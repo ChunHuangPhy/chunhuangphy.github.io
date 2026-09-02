@@ -486,34 +486,25 @@
     render();
   }
 
-  function initializePublicationFilters() {
+  function initializePublicationSearch() {
     var root = document.querySelector("[data-publications]");
     if (!root) return;
     var search = root.querySelector("[data-publication-search]");
-    var filters = root.querySelectorAll("[data-publication-filter]");
     var items = Array.prototype.slice.call(root.querySelectorAll(".publication-item"));
     var count = root.querySelector("[data-publication-count]");
 
-    function applyFilters() {
+    function applySearch() {
       var query = search.value.trim().toLowerCase();
       var visible = 0;
       items.forEach(function (item) {
         var matchesSearch = !query || item.getAttribute("data-search").indexOf(query) !== -1;
-        var matchesFilters = Array.prototype.every.call(filters, function (filter) {
-          var value = filter.value;
-          var field = filter.getAttribute("data-publication-filter");
-          return !value || item.getAttribute("data-" + field) === value;
-        });
-        item.hidden = !(matchesSearch && matchesFilters);
+        item.hidden = !matchesSearch;
         if (!item.hidden) visible += 1;
       });
       count.textContent = visible + (visible === 1 ? " publication" : " publications");
     }
 
-    search.addEventListener("input", applyFilters);
-    filters.forEach(function (filter) {
-      filter.addEventListener("change", applyFilters);
-    });
+    search.addEventListener("input", applySearch);
   }
 
   window.PulseProfileModel = Object.freeze({
@@ -524,6 +515,6 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     initializeSimulator();
-    initializePublicationFilters();
+    initializePublicationSearch();
   });
 }());
