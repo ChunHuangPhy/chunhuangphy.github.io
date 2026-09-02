@@ -1,39 +1,43 @@
 title: "Chun Huang"
 author: "Chun Huang"
-description: "Chun's personal website"
+description: "Physicist studying neutron-star magnetospheres, X-ray pulse profiles, Bayesian inference, and dense matter."
+url: "https://chunhuangphy.github.io"
+baseurl: ""
 permalink: /:title/
 lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+timezone: "America/Chicago"
 
-# Layout
+navigation:
+  - {title: "Home", url: "/"}
+  - {title: "Research", url: "/research/"}
+  - {title: "Publications", url: "/publications/"}
+  - {title: "CV", url: "/cv/"}
+  - {title: "About", url: "/about/"}
 
-show_excerpts: false        # show article excerpts on the home page
-show_frame: true          # adds a gray frame to the site
-show_social: true 
-show_sidebar: true        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+external:
+  - {title: "Google Scholar", url: "https://scholar.google.com/citations?user=oNADiKYAAAAJ&hl=en"}
+  - {title: "INSPIRE", url: "https://inspirehep.net/authors/2831773"}
+  - {title: "GitHub", url: "https://github.com/ChunHuangPhy"}
+  - {title: "Email", url: "mailto:chun.h@wustl.edu"}
 
-# Menu
-
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Who am I", file: "index.md"}
-  - {title: "CV", file: "cv.md"}
-  - {title: "Research", file: "Research.md"}
-  - {title: "CompactObject", url: "https://github.com/ChunHuangPhy/CompactObject"}
-
-
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Inspire-HEP, url: "https://inspirehep.net/authors/2831773?ui-citation-summary=true"}
-  - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?user=oNADiKYAAAAJ&hl=en"}
-  - {title: Mail, icon: envelope, url: "mailto:chun.h@wustl.edu"}
-  - {title: Github, icon: github, url: "https://github.com/ChunHuangPhy"}
-  - {title: Twitter/X, icon: twitter, url: "https://x.com/ChunHuang20"}
-
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
-plugins:
- - jekyll-feed
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - tmp
+  - _posts
+  - archive.html
+  - UNLICENSE.txt
+  - astrobite.png
+  - chun_photo.JPG
+  - demo.png
+  - dp.jpeg
+  - glitch.png
+  - hotspot.png
+  - maxresdefault-2.jpg
+  - assets/katex
+  - assets/fontawesome
+  - assets/css/frame.sass
+  - assets/css/index.sass
+  - assets/css/sidebar.sass

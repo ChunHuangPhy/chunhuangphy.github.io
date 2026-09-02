@@ -1,105 +1,79 @@
 ---
-layout: page
-title: "Chun Huang | Curriculum Vitae"
+layout: default
+title: "Curriculum Vitae"
+description: "Curriculum vitae for Chun Huang, Ph.D. candidate in physics at Washington University in St. Louis."
+permalink: /cv/
+slug: cv
 ---
 
-**Contact Information**  
-St Louis, MO, USA, 63112  
-[chun.h@wustl.edu](mailto:chun.h@wustl.edu)  
-Date of Birth: 2000/06/19
+<header class="page-hero shell cv-hero">
+  <p class="eyebrow">Curriculum vitae</p>
+  <h1>Research, leadership, and scientific service.</h1>
+  <div class="page-hero-grid">
+    <p>Ph.D. Candidate in Physics at Washington University in St. Louis. Expected May 2027.</p>
+    <a class="button button-primary" href="{{ '/assets/files/Chun-Huang-CV.pdf' | relative_url }}">Download full CV · PDF</a>
+  </div>
+</header>
 
----
+<section class="cv-layout shell">
+  <nav class="cv-nav" aria-label="CV sections">
+    <a href="#education">Education</a>
+    <a href="#profile">Research profile</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#honors">Honors</a>
+    <a href="#talks">Selected talks</a>
+    <a href="#mentoring">Mentoring & service</a>
+  </nav>
+  <div class="cv-content">
+    <section class="cv-section" id="education">
+      <p class="eyebrow">Education</p>
+      <div class="timeline-row"><time>2022–2027</time><div><h2>Ph.D. Candidate in Physics</h2><p>Washington University in St. Louis · Advisor: Prof. Alex Chen · Expected May 2027</p></div></div>
+      <div class="timeline-row"><time>2018–2022</time><div><h2>B.S. in Physics</h2><p>Central China Normal University · Wuhan, China</p></div></div>
+    </section>
 
-## Education
+    <section class="cv-section" id="profile">
+      <p class="eyebrow">Research profile</p>
+      <div class="cv-facts"><div><strong>10</strong><span>first-author papers</span></div><div><strong>3</strong><span>single-author papers</span></div><div><strong>6</strong><span>corresponding-author / mentored papers</span></div></div>
+      <p>Research centered on neutron-star equation-of-state inference, X-ray pulse-profile modeling, and pulsar magnetospheres, connecting NICER/XMM-Newton observations, multimessenger constraints, and physics-based emission models.</p>
+      <a class="arrow-link" href="{{ '/publications/' | relative_url }}">Browse all publications →</a>
+    </section>
 
-**Washington University in St Louis**  
-*PhD in Physics* (2022 - present)  
-St. Louis, MO, USA  
-Advisor: Alex Chen, Yajie Yuan, Michael Nowak
+    <section class="cv-section" id="leadership">
+      <p class="eyebrow">Research leadership, funding, and mission science</p>
+      <article class="cv-item"><h2>CompactObject collaboration</h2><p>Lead developer and coordinator of an international open-source Bayesian inference collaboration spanning the U.S., Europe, and China.</p></article>
+      <article class="cv-item"><h2>Awarded NICER proposal · 2026–2027</h2><p>Proposal lead writer and scientific lead for “GPU-Accelerated Pulse-Profile Analysis of NICER MSPs with Physics-Based Hotspot Models.”</p></article>
+      <article class="cv-item"><h2>NASA ADAP proposal · 2026 submission</h2><p>Major scientific contributor and co-writer, with primary contributions to soft X-ray/NICER modeling and Bayesian inference for magnetars.</p></article>
+      <article class="cv-item"><h2>NewAthena mission science</h2><p>WG4 special-issue contributor on dense-matter constraints through X-ray pulse-profile modeling.</p></article>
+    </section>
 
-**Central China Normal University**  
-*B.S. Department of Physics* (09/2018 - 06/2020)  
-Wuhan, Hubei, China  
-Minor: Physics Base Class, Physics Base Fellowship (2018 - 2021)
+    <section class="cv-section" id="honors">
+      <p class="eyebrow">Selected honors</p>
+      <div class="timeline-row"><time>2026</time><div><h2>Chambliss Student Poster Competition finalist</h2><p>AAS 248 Summer Meeting</p></div></div>
+      <div class="timeline-row"><time>2025</time><div><h2>Study Abroad Scholarship for Outstanding Students</h2><p>China Scholarship Council · exceptional top 20 globally</p></div></div>
+      <div class="timeline-row"><time>2025</time><div><h2>Dean’s Award for Graduate Research Excellence semifinalist</h2><p>Washington University in St. Louis</p></div></div>
+      <div class="timeline-row"><time>2022</time><div><h2>Outstanding Undergraduate Thesis Award</h2><p>Wuhan, China</p></div></div>
+    </section>
 
----
+    <section class="cv-section" id="talks">
+      <p class="eyebrow">Selected invited and contributed talks</p>
+      <ul class="talk-list">
+        <li><time>2026</time><span>CeNAM Frontiers in Nuclear Astrophysics · Selected talk</span></li>
+        <li><time>2025</time><span>Harvard CfA seminar and ITC luncheon · Invited talks</span></li>
+        <li><time>2025</time><span>MIT Kavli Institute · Invited MAT talk</span></li>
+        <li><time>2025</time><span>Princeton Astronomy and Institute for Advanced Study · Seminar and coffee talks</span></li>
+        <li><time>2025</time><span>Stanford KIPAC, UC Berkeley, Columbia, and UCLA · Invited seminars</span></li>
+        <li><time>2025</time><span>Princeton PCTS and IReNA-CeNAM · Selected talks</span></li>
+      </ul>
+    </section>
 
-## Publications and Presentations
-
-### Leading Author Publications
-
-1. <span style="color:cyan">**Chun Huang**</span> "First-principles Polar-cap Currents in Multipolar Pulsar Magnetospheres", (2026), The Astrophysical Journal, Volume 999, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4357/ae4489](https://iopscience.iop.org/article/10.3847/1538-4357/ae4489)
-2. TianZhe Zhou, <span style="color:cyan">**Chun Huang**</span> “GPU-Accelerated X-ray Pulse Profile Modeling”, [arXiv: 2510.07764](https://arxiv.org/abs/2510.07764), (2025), Submitted to *ApJS*. 
-3.  João Cartaxo, <span style="color:cyan">**Chun Huang**</span>, Tuhin Malik, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, Constança Providência, "A Complete Survey from the CompactObject Perspective on Equation of State Cross-Comparison Using Observational and Nuclear Experimental Constraints", (2026), The Astrophysical Journal Supplement Series, Volume 282, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4365/ae2310](https://iopscience.iop.org/article/10.3847/1538-4365/ae2310). 
-4. <span style="color:cyan">**Chun Huang**</span>,“Model-Independent Determination of the Tidal Deformability of a 1.4 $M_{\odot}$ Neutron Star from Gravitational-Wave Measurements”, (2025), *The Astrophysical Journal*, Volume 985, Number 2, [https://doi.org/10.3847/1538-4357/add5ef](https://doi.org/10.3847/1538-4357/add5ef) 
-5.  TianZhe Zhou, <span style="color:cyan">**Chun Huang**</span> “Hidden Twin Star Solutions from an Agnostic Speed-of-Sound Model: Confronting XTE J1814--338's Extreme Compactness”, [arXiv: 2504.08662](https://arxiv.org/abs/2504.08662), (2025), Submitted to *ApJ Letters*. 
-6.  <span style="color:cyan">**Chun Huang**</span>, Alexander Y. Chen, “Physics motivated models of pulsar X-ray hotspots: off-center dipole configurations”, (2025), The Astrophysical Journal, Volume 991, Number 1, [https://iopscience.iop.org/article/10.3847/1538-4357/adf747](https://iopscience.iop.org/article/10.3847/1538-4357/adf747).
-7.  <span style="color:cyan">**Chun Huang**</span>, Shashwat Sourav, "Constraining first-order phase transition inside neutron stars with application of Bayesian techniques on PSR J0437-4715 NICER data", (2025), *The Astrophysical Journal*, Volume 983, Number 1, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbb67/meta) 
-8.  <span style="color:cyan">**Chun Huang**</span>, “Equation of State Independent Determination on the Radius of a 1.4 $M_{\odot}$ Neutron Star Using Mass-Radius Measurements” (2025), *The Astrophysical Journal Letters*, Volume 978, Number 1, [https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c](https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c). 
-9. <span style="color:cyan">**Chun Huang**</span>, Tuhin Malik, João Cartaxo, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, John Groger, Xieyuan Dong, Nicole Osborn, Nathan Whitsett, Zhiheng Wang, Constança Providência, Micaela Oertel, Alexander Y. Chen, Laura Tolos, and Anna Watts, “CompactObject: An open-source Python package for full-scope neutron star equation of state inference”, [arXiv: 2411.14615](https://arxiv.org/abs/2411.14615), (2024), Submitted to *JOSS*. 
-10. Wenli Yuan, <span style="color:cyan">**Chun Huang**</span>, Chen Zhang, Enping Zhou, Renxin Xu, “Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814”, *Phys. Rev. D*, 111, 063033,[https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033)
-11. <span style="color:cyan">**Chun Huang**</span>, Laura Tolos, Constança Providência, and Anna Watts, “Constraining a relativistic mean field model using neutron star mass-radius measurements II: Hyperonic models”, Monthly Notices of the Royal Astronomical Society, 2024, [https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2792/7929867](https://doi.org/10.1093/mnras/stae2792) . 
-12. <span style="color:cyan">**Chun Huang**</span> and Xiaoping Zheng, “Bayesian Insights into post-Glitch Dynamics: Model comparison and parameter constraint from decades-long observation data of the Crab pulsar”, Monthly Notices of the Royal Astronomical Society, Volume 542, Issue 4, October 2025, Pages 3198–3205, [https://doi.org/10.1093/mnras/staf1415](https://doi.org/10.1093/mnras/staf1415). 
-13. <span style="color:cyan">**Chun Huang**</span>, Geert Raaijmakers, Anna Watts, Laura Tolos, Constança Providência, “Constraining a relativistic mean field model using neutron star mass–radius measurements I: nucleonic models”, Monthly Notices of the Royal Astronomical Society, Volume 529, Issue 4, April 2024, Pages 4650–4665, [https://doi.org/10.1093/mnras/stae844](https://doi.org/10.1093/mnras/stae844). 
-14. <span style="color:cyan">**Chun Huang**</span> and Yuchen Jiang, “Symmetry breaking Paradigm In Typical Laminar-Turbulence Transition System”, [arXiv: 2108.09486](https://arxiv.org/abs/2108.09486), (2020). 
-
-### Co-author Publications
-1. Xue-Zhi Liu,  Premachand Mahapatra, <span style="color:cyan">**Chun Huang**</span>, Ayush Hazarika, Chiranjeeb Singha, Prasanta Kumar Das "Revealing Dark Matter’s Role in Neutron Stars Anisotropy: A Bayesian Approach Using Multi-messenger Observations", *Physical Review D*, 112, 083032, 2025, [DOI: https://doi.org/10.1103/zhs6-487x]([https://arxiv.org/abs/2506.08376](https://journals.aps.org/prd/abstract/10.1103/zhs6-487x)) 
-2. Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, Sheng-Jie Yuan “The Persistent Shift in Spin-down Rate Following the Largest Crab Pulsar Glitch Rules Out External Torque Variations due to Starquakes”, *The Astrophysical Journal*, Volume 982, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbca6), (2025). **Undergrad Thesis Work**
-3. KangKang Shao, <span style="color:cyan">**Chun Huang**</span>, Qin Qin, “Data determination of HQET parameters in in- clusive charm decays”. The European Physical Journal C, 85, 1011 (2025), [DOI:10.1140/epjc/s10052- 025-14691-z](https://link.springer.com/article/10.1140/epjc/s10052-025-14691-z)
-
-
-### April Fool's day posting: 
-1. <span style="color:cyan">**Chun Huang**</span>, "The Cosmic One-Eyed Smile: Revealing the Hidden Face of Mike Wazowski" [arXiv: 2503.22914](https://arxiv.org/abs/2503.22914) , (2025), Submitting to Monstser University Journal :) **Constraining Mike Wazowski hotspots on neutron star!!**
-   
----
-
-## Recent Posters and Presentations
-
-- 2024/06: Tsinghua Astronomy, Seminar Talk
-- 2024/06: Peking University, Astrophysics Seminar
-- 2024/11: UIUC, Nicolas Yunes, Group meeting talk
-- 2025/02: Invited for Interview **AAS Journal Author Series: Chun Huang, Discussing my ApJL paper: 2025ApJ…978L..14H**: [Click here to see the Interview](https://www.youtube.com/watch?v=BJersSpLanE)
-- 2025/03: Columbia, Department of Astronomy, THEA seminar talk
-- 2025/05: Selected Talk, Princeton PCTS workshop, "Extreme Physics of Neutron Star Interiors"
-- 2025/05: Selected Talk, IReNA-CeNAM 2025: Frontiers in Nuclear Astrophysics Meeting
-- 2025/06: Invited Talk, UCLA physics seminar (remote)
-- 2025/08: Invited Talk, KIPAC Tea, Stanford Astronomy
-- 2025/08: Invited Talk, Multi-RAPTOR forum, UC Berkeley
-- 2025/08: IAS Astro coffee talk, Institute for Advanced Study
-- 2025/09: Invited Talk, MAT talk, MIT Kavli Institute
-- 2025/09: Invited Talk, ITC luncheon, Harvard ITC
-- 2025/09: Invited Talk, CfA seminar, Harvard CfA
-- 2025/10: Oral Presentation, HEAD 22 meeting, St Louis, MO
-  
----
-
-## Honors and Awards
-
-- 2025: Dean’s Award for Graduate Research Excellence, Semi-finalist, Washington University in St Louis
-- 2022-2024: Washington University, Art-Science Fellowship
-- 2021: SJTU Tsung-Dao-Lee Institute, “Lun Dao” Doctoral Student Forum, First Prize (as the only undergrad attendee)
-- 2021: PKU-DoA Undergraduate Astronomy Symposium, Best Report Second Prize, Ranked 8/40
-- 2018-2020: Physics Base Fellowship
-- 2020/05: China Undergraduate Physics Tournament, Central South Regional Second Prize (as leader)
-- 2020/09: China Undergraduate Physics Tournament, National Third Prize (as leader)
-
----
-
-## Collaborating/Advising Students
-
-- Wenli Yuan (Peking University Postdoc)
-- Zhiheng Wang (WUSTL graduate student)
-- Tianzhe Zhou (Tsinghua graduate student)
-- Qiuli Wang (Nanjing PMO graduate student)
-- John Groger (WUSTL graduate student)
-- Shashwat Sourav (WUSTL graduate student, co-advised with Prof. Henric Krawczynski)
-- Xieyuan Dong (Nankai University, master student, co-advised with Prof. JingNiu Hu)
-- Xuezhi Liu (Central China Normal University, master student, co-advised with Prof. Xiaoping Zheng)
-- Ryan O’Connor (WUSTL undergrad, co-advised with Prof. Alex Chen)
-
----
-
-## Teaching Experience
-
-- 2022/2023/2024: TA in Physics 191 and 192 Lab.
+    <section class="cv-section" id="mentoring">
+      <p class="eyebrow">Mentoring, teaching, and service</p>
+      <p>I have mentored undergraduate, master’s, Ph.D., and postdoctoral researchers across institutions, contributing to published work in Physical Review D, Astronomy & Astrophysics, and The Astrophysical Journal.</p>
+      <div class="cv-item-grid">
+        <article><h2>Teaching</h2><p>Physics 191 and 192 laboratory teaching assistant, Washington University, 2022–2025.</p></article>
+        <article><h2>Professional service</h2><p>Referee for The Astrophysical Journal, Frontiers in Astronomy and Space Sciences, Classical and Quantum Gravity, and Physica Scripta.</p></article>
+        <article><h2>Collaboration</h2><p>Member of the MUSES Collaboration since 2024.</p></article>
+      </div>
+    </section>
+  </div>
+</section>

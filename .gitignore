@@ -4,4 +4,6 @@
 .sass-cache
 Gemfile.lock
 _site
+vendor/
+tmp/
 *.gem

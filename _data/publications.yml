@@ -1,0 +1,161 @@
+- title: "First-Principles Polar-Cap Currents in Multipolar Pulsar Magnetospheres"
+  authors: "Chun Huang"
+  year: 2026
+  venue: "The Astrophysical Journal 999, 204"
+  url: "https://doi.org/10.3847/1538-4357/ae4489"
+  topic: "Magnetospheres"
+  role: "First author"
+  featured: true
+
+- title: "Model-Independent Determination of the Tidal Deformability of a 1.4 Solar-Mass Neutron Star from Gravitational-Wave Measurements"
+  authors: "Chun Huang"
+  year: 2025
+  venue: "The Astrophysical Journal 985"
+  url: "https://doi.org/10.3847/1538-4357/add5ef"
+  topic: "Dense matter"
+  role: "First author"
+  featured: true
+
+- title: "Physics-Motivated Models of Pulsar X-Ray Hotspots: Off-center Dipole Configurations"
+  authors: "Chun Huang and Alexander Y. Chen"
+  year: 2025
+  venue: "The Astrophysical Journal 991, 90"
+  url: "https://doi.org/10.3847/1538-4357/adf747"
+  topic: "X-ray modeling"
+  role: "First author"
+  featured: true
+
+- title: "Constraining First-order Phase Transition inside Neutron Stars with Application of Bayesian Techniques on PSR J0437-4715 NICER Data"
+  authors: "Chun Huang and Shashwat Sourav"
+  year: 2025
+  venue: "The Astrophysical Journal 983"
+  url: "https://doi.org/10.3847/1538-4357/adbb67"
+  topic: "Dense matter"
+  role: "First author"
+  featured: false
+
+- title: "Equation-of-State-Independent Determination of the Radius of a 1.4 Solar-Mass Neutron Star Using Mass-Radius Measurements"
+  authors: "Chun Huang"
+  year: 2025
+  venue: "The Astrophysical Journal Letters 978, L14"
+  url: "https://doi.org/10.3847/2041-8213/ad9f3c"
+  topic: "Dense matter"
+  role: "First author"
+  featured: true
+
+- title: "CompactObject: An Open-source Python Package for Full-scope Neutron Star Equation-of-state Inference"
+  authors: "Chun Huang, Tuhin Malik, João Cartaxo, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, et al."
+  year: 2024
+  venue: "arXiv:2411.14615 · submitted to JOSS"
+  url: "https://arxiv.org/abs/2411.14615"
+  topic: "Scientific software"
+  role: "First author"
+  featured: true
+
+- title: "Constraining a Relativistic Mean Field Model Using Neutron Star Mass-Radius Measurements II: Hyperonic Models"
+  authors: "Chun Huang, Laura Tolos, Constança Providência, and Anna Watts"
+  year: 2024
+  venue: "Monthly Notices of the Royal Astronomical Society"
+  url: "https://doi.org/10.1093/mnras/stae2792"
+  topic: "Dense matter"
+  role: "First author"
+  featured: false
+
+- title: "Bayesian Insights into Post-glitch Dynamics: Model Comparison and Parameter Constraint from Decades-long Observation Data of the Crab Pulsar"
+  authors: "Chun Huang and Xiaoping Zheng"
+  year: 2025
+  venue: "Monthly Notices of the Royal Astronomical Society 542, 3198-3205"
+  url: "https://doi.org/10.1093/mnras/staf1415"
+  topic: "Earlier work"
+  role: "First author"
+  featured: false
+
+- title: "Constraining a Relativistic Mean Field Model Using Neutron Star Mass-Radius Measurements I: Nucleonic Models"
+  authors: "Chun Huang, Geert Raaijmakers, Anna Watts, Laura Tolos, and Constança Providência"
+  year: 2024
+  venue: "Monthly Notices of the Royal Astronomical Society 529, 4650-4665"
+  url: "https://doi.org/10.1093/mnras/stae844"
+  topic: "Dense matter"
+  role: "First author"
+  featured: false
+
+- title: "Symmetry Breaking Paradigm in Typical Laminar-Turbulence Transition System"
+  authors: "Chun Huang and Yuchen Jiang"
+  year: 2021
+  venue: "arXiv:2108.09486"
+  url: "https://arxiv.org/abs/2108.09486"
+  topic: "Earlier work"
+  role: "First author"
+  featured: false
+
+- title: "GPU-Accelerated X-ray Pulse Profile Modeling"
+  authors: "Tianzhe Zhou and Chun Huang"
+  year: 2026
+  venue: "Astronomy & Astrophysics 709, A111"
+  url: "https://doi.org/10.1051/0004-6361/202659305"
+  topic: "X-ray modeling"
+  role: "Mentored"
+  featured: true
+
+- title: "Hidden Twin-star Solutions from an Agnostic Speed-of-sound Model: XTE J1814-338 and GW170817 as a Multimessenger Differentiator"
+  authors: "Tianzhe Zhou and Chun Huang"
+  year: 2025
+  venue: "The Astrophysical Journal 1002, 120"
+  url: "https://doi.org/10.3847/1538-4357/ae552e"
+  topic: "Dense matter"
+  role: "Mentored"
+  featured: false
+
+- title: "Combining the Mass-Radius Posteriors of J0030+0451 Allowing for Unknown Model Systematics"
+  authors: "Ryan O’Connor, Chun Huang, and Alexander Chen"
+  year: 2026
+  venue: "arXiv:2604.11621 · submitted to ApJ"
+  url: "https://arxiv.org/abs/2604.11621"
+  topic: "X-ray modeling"
+  role: "Mentored"
+  featured: false
+
+- title: "Revealing Dark Matter’s Role in Neutron Stars Anisotropy: A Bayesian Approach Using Multi-messenger Observations"
+  authors: "Xue-Zhi Liu, Premachand Mahapatra, Chun Huang, Ayush Hazarika, Chiranjeeb Singha, and Prasanta Kumar Das"
+  year: 2025
+  venue: "Physical Review D 112, 083032"
+  url: "https://doi.org/10.1103/zhs6-487x"
+  topic: "Dense matter"
+  role: "Mentored"
+  featured: false
+
+- title: "Covariant Energy Density Functionals for Modeling the Equation of State of Neutron Star Matter: Cross-comparison Analysis Using CompactObject"
+  authors: "João Cartaxo, Chun Huang, Tuhin Malik, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, and Constança Providência"
+  year: 2025
+  venue: "The Astrophysical Journal Supplement Series 282, 33"
+  url: "https://doi.org/10.3847/1538-4365/ae2310"
+  topic: "Scientific software"
+  role: "Mentored"
+  featured: false
+
+- title: "Bayesian Inference of Strangeon Matter Using the Measurements of PSR J0437-4715 and GW190814"
+  authors: "Wen-Li Yuan, Chun Huang, Chen Zhang, Enping Zhou, and Renxin Xu"
+  year: 2025
+  venue: "Physical Review D 111, 063033"
+  url: "https://doi.org/10.1103/PhysRevD.111.063033"
+  topic: "Dense matter"
+  role: "Mentored"
+  featured: false
+
+- title: "The Persistent Shift in Spin-down Rate Following the Largest Crab Pulsar Glitch Rules Out External Torque Variations due to Starquakes"
+  authors: "Xiaoping Zheng, Weihua Wang, Chun Huang, Jianping Yuan, and Sheng-Jie Yuan"
+  year: 2025
+  venue: "The Astrophysical Journal 982"
+  url: "https://doi.org/10.3847/1538-4357/adbca6"
+  topic: "Earlier work"
+  role: "Collaborative"
+  featured: false
+
+- title: "Data Determination of HQET Parameters in Inclusive Charm Decays"
+  authors: "Kangkang Shao, Chun Huang, and Qin Qin"
+  year: 2025
+  venue: "The European Physical Journal C 85, 1011"
+  url: "https://doi.org/10.1140/epjc/s10052-025-14691-z"
+  topic: "Collaborative"
+  role: "Collaborative"
+  featured: false

@@ -1,93 +1,119 @@
 ---
-layout: page
+layout: default
 title: "Research"
+description: "Research by Chun Huang on pulsar magnetospheres, X-ray pulse-profile modeling, neutron-star radii, and dense matter."
+permalink: /research/
+slug: research
 ---
 
-My research interests have evolved significantly from my undergraduate studies to my PhD, as I have actively explored various areas within astrophysics and physics. Below, I outline my primary research areas, highlighting my contributions and collaborations.
+<header class="research-hero shell">
+  <p class="eyebrow">Research program</p>
+  <h1>Reading a neutron star <em>from the outside in.</em></h1>
+  <div class="research-hero-lede">
+    <p>A neutron star packs more mass than the Sun into a sphere the size of a city. Its radius records how matter behaves at densities unreachable on Earth—but measuring that radius requires understanding where its X-rays come from.</p>
+    <p>My research closes that loop: from relativistic plasma and surface heating, through X-ray waveform inference, to the dense-matter equation of state.</p>
+  </div>
+</header>
 
-## 1. Bayesian Inference of Equation of State
+<nav class="research-jump shell" aria-label="Research sections">
+  <a href="#magnetosphere"><span>01</span> Magnetosphere</a>
+  <a href="#xray"><span>02</span> X-ray inference</a>
+  <a href="#dense-matter"><span>03</span> Dense matter</a>
+  <a href="#software"><span>04</span> Scientific software</a>
+  <a href="#future"><span>05</span> Next program</a>
+</nav>
 
-![Neutron star](astrobite.png)
+<section class="research-section shell" id="magnetosphere">
+  <div class="research-copy">
+    <p class="eyebrow">01 · Exterior</p>
+    <h2>Can plasma physics predict which parts of the star shine?</h2>
+    <p>Particles accelerated in a pulsar’s relativistic magnetosphere return to the magnetic poles and heat the surface. The resulting hot regions are not arbitrary patches: they are physical maps of global electric currents and magnetic geometry.</p>
+    <p>I developed analytic models that connect magnetospheric currents to surface-heating patterns for displaced dipoles and multipolar fields. These models remain fast enough for Bayesian inference while producing pulse shapes that can differ by roughly 30%.</p>
+    <a class="paper-link" href="https://doi.org/10.3847/1538-4357/ae4489"><span>Featured paper</span> First-Principles Polar-Cap Currents in Multipolar Pulsar Magnetospheres →</a>
+  </div>
+  <figure class="research-visual map-visual">
+    <img src="{{ '/assets/images/hotspot-map.webp' | relative_url }}" alt="Mollweide projection showing two physics-motivated hot regions on a neutron-star surface">
+    <figcaption><strong>Surface heating map.</strong> Physical hotspot regions predicted from an off-center magnetic configuration. Huang & Chen, ApJ 991, 90 (2025).</figcaption>
+  </figure>
+</section>
 
-I have developed a strong interest in applying mass-radius measurements and other astrophysical constraints to determine the equation of state (EOS) of neutron stars. My research is among the first to apply these constraints to physics-motivated EOS models using Bayesian inference. Collaborating with Prof. Anna Watts and her group, as well as nuclear physicists such as Prof. Laura Tolos and Prof. Constança Providência, I have focused on applying Bayesian inference to Relativistic Mean Field (RMF) theory models.
+<section class="research-section shell reversed" id="xray">
+  <div class="research-copy">
+    <p class="eyebrow">02 · Surface</p>
+    <h2>Turning rotating X-ray light into a radius measurement.</h2>
+    <p>NICER measures the changing X-ray brightness as hot regions rotate across a neutron star’s surface. General-relativistic light bending and Doppler effects encode the star’s compactness, but the result can shift if the surface geometry is wrong.</p>
+    <p>I co-developed an open GPU-accelerated pulse-profile framework that matches established benchmarks while reducing high-fidelity waveform calculations from seconds or minutes to milliseconds—speedups of 10³–10⁴ on tested hardware.</p>
+    <a class="paper-link" href="https://doi.org/10.1051/0004-6361/202659305"><span>Featured paper</span> GPU-Accelerated X-ray Pulse Profile Modeling →</a>
+  </div>
+  <figure class="research-visual comparison-visual">
+    <img src="{{ '/assets/images/research-outside-in.png' | relative_url }}" alt="Comparison of shifted dipole, shifted multipole, and centered multipole heating maps and their inferred radius distributions">
+    <figcaption><strong>A controlled model comparison.</strong> With the data and inference machinery fixed, two displaced-field models agree near 13–14 km while a centered-field model shifts the inferred radius higher. Preliminary J0740+6620 analysis.</figcaption>
+  </figure>
+</section>
 
-**Key Publications:**
-- **Chun Huang**, Geert Raaijmakers, Anna Watts, Laura Tolos, Constança Providência, “Constraining a relativistic mean field model using neutron star mass–radius measurements I: nucleonic models”, Monthly Notices of the Royal Astronomical Society, Volume 529, Issue 4, April 2024, Pages 4650–4665, [https://doi.org/10.1093/mnras/stae844](https://doi.org/10.1093/mnras/stae844).
-- **Chun Huang**, Laura Tolos, Constança Providência, and Anna Watts, “Constraining a relativistic mean field model using neutron star mass-radius measurements II: Hyperonic models”, Monthly Notices of the Royal Astronomical Society, 2024, [https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2792/7929867](https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2792/7929867) .
-- **Chun Huang**, Shashwat Sourav, "Constraining first-order phase transition inside neutron stars with application of Bayesian techniques on PSR J0437-4715 NICER data", [arXiv: 2502.11976](https://arxiv.org/abs/2502.11976), (2025), *The Astrophysical Journal*, Volume 983, Number 1, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbb67/meta)
+<section class="research-section shell" id="dense-matter">
+  <div class="research-copy">
+    <p class="eyebrow">03 · Interior</p>
+    <h2>Separating what the data say from what the equation of state assumes.</h2>
+    <p>I develop complementary paths to neutron-star interiors. Physics-informed analyses test nucleonic, hyperonic, phase-transition, strange-matter, and dark-matter scenarios. Model-independent analyses instead combine mass-radius or gravitational-wave posteriors to infer canonical radii and tidal deformabilities with minimal equation-of-state assumptions.</p>
+    <p>Three single-author studies establish this independent thread of my research, including data-driven determinations of the radius and tidal deformability of a 1.4-solar-mass neutron star.</p>
+    <a class="paper-link" href="https://doi.org/10.3847/2041-8213/ad9f3c"><span>Featured paper</span> Equation-of-State-Independent Radius Determination →</a>
+  </div>
+  <div class="result-panel" aria-label="Selected model-independent neutron-star radius result">
+    <p class="result-label">Model-independent inference</p>
+    <div class="result-value">11.94 <small>km</small></div>
+    <div class="result-range" aria-label="16th to 84th percentile range from 11.14 to 12.73 kilometers">
+      <span style="left: 20%"></span><i style="left: 49%"></i><span style="left: 77%"></span>
+    </div>
+    <div class="range-labels"><span>11.14</span><strong>median</strong><span>12.73</span></div>
+    <p>Radius of a 1.4-solar-mass neutron star inferred from two mass-radius measurements; 16th–84th percentiles.</p>
+  </div>
+</section>
 
-This research started during the pandemic and has spanned a significant period. I attended a summer school at Northwestern University, where I developed a Bayesian inference package named [**CompactObject**](https://github.com/ChunHuangPhy/CompactObject). This open-source package is designed for Bayesian inference on EOS constraints, featuring a user-friendly and extensible structure. Initially led by me, the project has since expanded through collaborations with researchers from the EU, China, and Washington University. The package now supports seven different EOS models, ranging from phenomenological to meta-models, making it a powerful tool in the community.
+<section class="software-section" id="software">
+  <div class="shell software-grid">
+    <div>
+      <p class="eyebrow">04 · Infrastructure and leadership</p>
+      <h2>CompactObject</h2>
+      <p class="software-lede">An open-source framework for full-scope Bayesian inference of neutron-star equations of state.</p>
+    </div>
+    <div class="software-details">
+      <p>As lead developer and coordinator, I work with researchers across the United States, Europe, and China to connect equation-of-state generation, TOV structure, nuclear experiments, X-ray measurements, and gravitational-wave constraints in one extensible workflow.</p>
+      <ul class="tag-list" aria-label="CompactObject capabilities">
+        <li>EOS generators</li><li>TOV solver</li><li>Nested sampling</li><li>Multimessenger likelihoods</li><li>Documented workflows</li>
+      </ul>
+      <div class="button-row">
+        <a class="button button-light" href="https://github.com/ChunHuangPhy/CompactObject">Source on GitHub</a>
+        <a class="text-link light-link" href="https://chunhuangphy.github.io/CompactObject/">Documentation →</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-**Key Publication:**
-- **Chun Huang**, Tuhin Malik, João Cartaxo, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, John Groger, Xieyuan Dong, Nicole Osborn, Nathan Whitsett, Zhiheng Wang, Constança Providência, Micaela Oertel, Alexander Y. Chen, Laura Tolos, and Anna Watts, “[CompactObject: An open-source Python package for full-scope neutron star equation of state inference](https://arxiv.org/abs/2411.14615)”, arXiv:2411.14615 (2024), submitted to *JOSS*.
+<section class="future-section shell" id="future">
+  <p class="eyebrow">05 · Postdoctoral research direction</p>
+  <div class="future-grid">
+    <h2>Three emission zones. One magnetic structure. A falsifiable radius experiment.</h2>
+    <div>
+      <p>My next program will ask whether radio polarization, thermal X-rays, and gamma-ray pulses can independently identify the magnetosphere before the X-rays are used to infer the stellar radius.</p>
+      <ol>
+        <li><strong>Calibrate surface heating</strong> with a bounded suite of kinetic plasma simulations.</li>
+        <li><strong>Test one geometry</strong> against radio, X-ray, and held-out gamma-ray observations.</li>
+        <li><strong>Average over surviving models</strong> to report both statistical and exterior-model uncertainty in the radius.</li>
+      </ol>
+      <p>The outcome is useful either way: a portable radius method if the models agree, or a quantified plasma systematic if they do not.</p>
+    </div>
+  </div>
+</section>
 
-**Large scale survey paper of EOS based on my CompactObject Package:**
-- João Cartaxo, **Chun Huang**, Tuhin Malik, Shashwat Sourav, Wenli Yuan, Tianzhe Zhou, Xuezhi Liu, Constança Providência, "A Complete Survey from the CompactObject Perspective on Equation of State Cross-Comparison Using Observational and Nuclear Experimental Constraints", [arXiv: 2506.03112](https://arxiv.org/abs/2506.03112), (2025), Submitted to ApJS.
-
-Another survey papers on CompactObject is currently in progress. I have also utilized this package to assist physicists worldwide in inferring various EOS models.
-
-**Additional Collaboration:**
-- Wenli Yuan, **Chun Huang**, Chen Zhang, Enping Zhou, Renxin Xu, “Bayesian inference of strangeon matter using the new measurement of J0437-4751 and GW190814”, *Phys. Rev. D*, 111, 063033 [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.063033)
-
-Ongoing collaborations aim to constrain dark matter, nuclear parameterized EOS, and phase transitions.
-
-## 2. Inference Methods Independent of Equation of State Assumptions
-
-![Inference_demonstration](demo.png)
-
-This emerging field represents a significant expansion of my research portfolio. I have developed novel tools and approaches to analyze observational data independently of EOS assumptions, addressing common critiques when presenting my work. This method allows for the inference of critical quantities that are of broad interest across various physics communities, including nuclear physics, gravitational wave physics, and astrophysics.
-
-This research has culminated in my first two single-author paper, marking my establishment as an independent researcher in this field.
-
-**Key Publication:**
-
-1. Constraining 1.4 $M_{\odot}$ Neutron star radius with a novel model independent study:
-- **Chun Huang**, “Equation of State Independent Determination on the Radius of a 1.4 $M_{\odot}$ Neutron Star Using Mass-Radius Measurements” (2024), *The Astrophysical Journal Letters*, Volume 978, Number 1, [https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c](https://iopscience.iop.org/article/10.3847/2041-8213/ad9f3c).
-
-2. Constraining 1.4 $M_{\odot}$ Neutron star Tidal deformalbility with a novel model independent study:
-- **Chun Huang**, “Model-Independent Determination of the Tidal Deformability of a 1.4 $M_{\odot}$ Neutron Star from Gravitational-Wave Measurements” (2025), *The Astrophysical Journal*, Volume 985, Number 2, [https://doi.org/10.3847/1538-4357/add5ef](https://doi.org/10.3847/1538-4357/add5ef)
-
-
-Further work in EOS-independent inference is underway, in collaboration with an undergraduate student at Washington University and Prof. Alex Chen.
-
-## 3. Physics-Motivated X-ray Hotspot Modeling
-
-![Hotspot](hotspot.png)
-
-This research is an integral part of my PhD thesis, focusing on modeling X-ray hotspots using X-ray pulse profile data from [NICER](https://heasarc.gsfc.nasa.gov/docs/nicer/) observations. In collaboration with Prof. Alex Chen at Washington University, the key motivation behind this work is to move beyond the reliance on meta hotspot models, which often lack systematization. Instead, I aim to employ phenomenological force-free hotspot models to perform inferences on pulse profile data.
-
-I have developed a comprehensive pipeline for this inference process, which is profound in its ability to connect the neutron star's interior, surface, and exterior into a cohesive framework using solely X-ray observations. This holistic approach allows us to solve complex interactions within the neutron star system. Future plans include extending this methodology to incorporate multi-wavelength constraints and adapting it to handle arbitrary magnetic field configurations.
-
-**Key Publication:**
-- **Chun Huang**, Alexander Y. Chen, "Physics motivated models of pulsar X-ray hotspots: off-center dipole configurations", (2025), [arXiv: 2502.15881](https://arxiv.org/abs/2502.15881).
-- TianZhe Zhou, <span style="color:cyan">**Chun Huang**</span> “GPU-Accelerated X-ray Pulse Profile Modeling”, [arXiv: 2510.07764](https://arxiv.org/abs/2510.07764), (2025), Submitted to *ApJS*.
-
-
-## 4. Glitch Dynamics
-
-![Glitch](glitch.png)
-
-Pulsar glitches are fundamental phenomena characterized by sudden increases in a pulsar's spin rate. These abrupt changes are typically accompanied by phenomena such as delayed spin-up and persistent shifts in the spin-down rate. To investigate these dynamics, I have delved into the literature and analyzed radio observation data of the Crab pulsar's glitches. In collaboration with Prof. Xiaoping Zheng at Central China Normal University, my work focuses on examining different theoretical models of pulsar glitches through data analysis.
-
-**Key Publication:**
-- **Chun Huang** and Xiaoping Zheng, “[Bayesian Insights into post-Glitch Dynamics: Model comparison and parameter constraint from decades-long observation data of the Crab pulsar](https://arxiv.org/abs/2409.18432)”, arXiv:2409.18432 (2024).
-
-Additionally, I am interested in the theoretical modeling of glitch behavior using superfluid theory. Part of my undergraduate thesis is dedicated to this topic, where we examine past starquake models with new datasets. This work is currently being prepared for publication.
-
-**Key Publication:**
-- Xiaoping Zheng, WeiHua Wang, <span style="color:cyan">**Chun Huang**</span>, and Jianping Yuan, Sheng-Jie Yuan “The Persistent Shift in Spin-down Rate Following the Largest Crab Pulsar Glitch Rules Out External Torque Variations due to Starquakes”, *The Astrophysical Journal*, Volume 982, Number 2, [https://iopscience.iop.org/article/10.3847/1538-4357/adbca6](https://iopscience.iop.org/article/10.3847/1538-4357/adbca6), (2025). 
-## 5. Other Fields
-
-![polygon](maxresdefault-2.jpg)
-
-I maintain a persistent interest in nonlinear dynamics and fluid dynamics. A significant part of my undergraduate experience involved studying fluid dynamics with fellow students at Central China Normal University (CCNU). One of our projects, which investigated a fascinating phenomenon named "Polygon vortex," has been summarized in an [arXiv submission](https://arxiv.org/abs/2108.09486), although it has not yet been published.
-
-- **Chun Huang** and Yuchen Jiang, “[Symmetry breaking Paradigm In Typical Laminar-Turbulence Transition System](https://arxiv.org/abs/2108.09486)”, arXiv:2108.09486 (2020).
-
-![doublepulsar](dp.jpeg)
-
-I am also interested in other fluid dynamics physics problems and astrophysical observations in the X-ray band. I have collaborated with Prof. Michael Nowak on studying double pulsar systems. Currently, I am actively working with a colleague at Purple Mountain Observatory to perform observational constraints on double pulsar systems.
-
-
----
-
+<section class="earlier-section shell">
+  <div>
+    <p class="eyebrow">Earlier and collaborative work</p>
+    <h2>A broader foundation</h2>
+  </div>
+  <div class="earlier-list">
+    <article><span>Glitch dynamics</span><p>Bayesian model comparison for decades of Crab pulsar timing data and theoretical tests of starquake interpretations.</p></article>
+    <article><span>Fluid dynamics</span><p>Symmetry breaking in polygon-vortex transitions, developed during my undergraduate training.</p></article>
+    <article><span>Cross-field collaboration</span><p>Contributions spanning double-pulsar observations, dark matter in neutron stars, and heavy-quark effective theory.</p></article>
+  </div>
+</section>
