@@ -1,110 +1,52 @@
-<!doctype html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#102637">
-    <meta name="author" content="{{ site.author | escape }}">
-    {% assign page_title = page.title | default: site.title %}
-    {% assign page_description = page.description | default: site.description %}
-    <title>{% if page.title and page.title != site.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
-    <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
-    <link rel="canonical" href="{{ page.url | absolute_url }}">
-    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
-    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ page_title | escape }}">
-    <meta property="og:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:image" content="{{ '/assets/images/og-card.png' | absolute_url }}">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ page_title | escape }}">
-    <meta name="twitter:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
-    <meta name="twitter:image" content="{{ '/assets/images/og-card.png' | absolute_url }}">
-    {% if page.url == '/' %}
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Chun Huang",
-        "jobTitle": "Ph.D. Candidate in Physics",
-        "affiliation": {"@type": "CollegeOrUniversity", "name": "Washington University in St. Louis"},
-        "url": "{{ site.url }}",
-        "email": "mailto:chun.h@wustl.edu",
-        "sameAs": [
-          "https://github.com/ChunHuangPhy",
-          "https://scholar.google.com/citations?user=oNADiKYAAAAJ&hl=en",
-          "https://inspirehep.net/authors/2831773",
-          "https://orcid.org/0000-0001-6406-1003"
-        ]
-      }
-    </script>
-    {% endif %}
-    {% if page.slug == 'publications' %}
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Publications by Chun Huang",
-        "numberOfItems": {{ site.data.publications | size }},
-        "itemListElement": [
-          {% for paper in site.data.publications %}{
-            "@type": "ScholarlyArticle",
-            "position": {{ forloop.index }},
-            "name": {{ paper.title | jsonify }},
-            "url": {{ paper.url | jsonify }},
-            "datePublished": "{{ paper.year }}",
-            "author": {"@type": "Person", "name": "Chun Huang"},
-            "isPartOf": {"@type": "PublicationVolume", "name": {{ paper.venue | jsonify }}}
-          }{% unless forloop.last %},{% endunless %}{% endfor %}
-        ]
-      }
-    </script>
-    {% endif %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TTW0S57KD"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-1TTW0S57KD');
-    </script>
-  </head>
-  <body class="page-{{ page.slug | default: page.layout }}">
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <header class="site-header">
-      <div class="shell nav-shell">
-        <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Chun Huang, home">
-          <span>Chun Huang</span>
-          <small>Physics · WashU</small>
-        </a>
-        <nav class="site-nav" aria-label="Primary navigation">
-          {% for item in site.navigation %}
-          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
-          {% endfor %}
-        </nav>
-      </div>
-    </header>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+<meta charset="{{ site.encoding }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="{{ page.author | default: site.author | escape }}">
+<meta name="generator" content="Jekyll v{{ jekyll.version }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{% if site.show_frame %}
+<link rel="stylesheet" href="{{ "/assets/css/frame.css" | relative_url }}">
+{% else %}
+<link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
+{% endif %}
+{% if site.plugins contains "jekyll-feed" %}<link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">{% endif %}
+{% if page.mathjax or site.mathjax %}
+<link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
+<script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
+<script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}" onload="renderMathInElement(document.body)"></script>
+{% endif %}
+{% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
+{% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
+{% if site.show_sidebar or site.sidebar %}{% include sidebar.html %}{% endif %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1TTW0S57KD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <main id="main-content">
-      {{ content }}
-    </main>
+  gtag('config', 'G-1TTW0S57KD');
+</script>
+{% if site.navigation %}
+  {% assign pages = site.navigation %}
+{% else %}
+  {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
+{% endif %}
 
-    <footer class="site-footer">
-      <div class="shell footer-grid">
-        <div>
-          <a class="footer-name" href="{{ '/' | relative_url }}">Chun Huang</a>
-          <p>Neutron stars, from magnetosphere to dense matter.</p>
-        </div>
-        <div class="footer-links" aria-label="Professional profiles">
-          {% for item in site.external %}
-          <a href="{{ item.url }}">{{ item.title }}</a>
-          {% endfor %}
-        </div>
-        <p class="footer-meta">Ph.D. expected May 2027 · St. Louis, Missouri</p>
-      </div>
-    </footer>
-    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
-  </body>
+<header>
+  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+  {% include menu.html menu=pages %}
+</header>
+
+{{ content }}
+
+{% if site.external %}
+<footer>
+  <div>{{ site.description | default: site.title }}</div>
+  {% include menu.html menu=site.external %}
+</footer>
+{% endif %}
+
 </html>
