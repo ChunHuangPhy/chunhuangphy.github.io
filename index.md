@@ -7,21 +7,21 @@ slug: home
 ---
 
 <section class="shell home-intro">
-  <div>
-    <p class="eyebrow">Neutron-star physics</p>
-    <h1>From magnetosphere to dense matter.</h1>
-    <p class="lede">I connect physical models of pulsar magnetospheres to X-ray pulse profiles and multimessenger inference, using observations of a star’s surface to study matter at extreme density.</p>
-    <p class="availability">Ph.D. candidate at Washington University · seeking postdoctoral positions beginning in 2027</p>
+  <figure class="portrait">
+    <img src="{{ '/assets/images/chun-huang-portrait.jpg' | relative_url }}" alt="Chun Huang standing in front of the United States Supreme Court" width="900" height="1200">
+  </figure>
+  <div class="intro-copy">
+    <p class="eyebrow">Ph.D. candidate in Physics</p>
+    <h1>Chun Huang</h1>
+    <p class="lede">I am a fourth-year Ph.D. candidate in the Department of Physics at Washington University in St. Louis, working with Alexander Y. Chen, Yajie Yuan, and Michael Nowak.</p>
+    <p>I study how pulsar magnetospheres produce X-ray hotspots, and how pulse-profile and multimessenger observations can constrain neutron-star radii and dense matter.</p>
+    <p class="availability">I am seeking postdoctoral positions beginning in 2027.</p>
     <div class="intro-links">
       <a href="{{ '/research/' | relative_url }}">Research</a>
       <a href="{{ '/publications/' | relative_url }}">Publications</a>
       <a href="mailto:chun.h@wustl.edu">Contact</a>
     </div>
   </div>
-  <figure class="portrait">
-    <img src="{{ '/assets/images/chun-huang-portrait.jpg' | relative_url }}" alt="Portrait of Chun Huang" width="800" height="1000">
-    <figcaption>Washington University in St. Louis</figcaption>
-  </figure>
 </section>
 
 <section class="section shell">
@@ -50,12 +50,33 @@ slug: home
 
 <section class="simulator shell" id="pulse-profile-demo" data-pulse-simulator>
   <div class="simulator-intro">
-    <p class="eyebrow">Interactive model</p>
-    <h2>Build a hotspot and compute its pulse profile</h2>
-    <p>Change the star, viewing angle, or emitting region. The surface view and normalized light curve are recomputed in your browser from the selected geometry.</p>
+    <p class="eyebrow">Interactive forward model</p>
+    <h2>From an off-center dipole to an X-ray pulse</h2>
+    <p>Change the magnetic obliquity or move the dipole inside the star. The physics-motivated surface-heating map and its relativistic light curve are recomputed together.</p>
   </div>
   <div class="simulator-layout">
     <form class="sim-controls" aria-label="Hotspot model parameters">
+      <fieldset>
+        <legend>Magnetosphere</legend>
+        <label class="sim-control" for="sim-obliquity">
+          <span class="control-row"><span>Magnetic obliquity</span><output for="sim-obliquity" data-output="obliquity">35°</output></span>
+          <input id="sim-obliquity" data-parameter="obliquity" type="range" min="10" max="80" value="35" step="1">
+        </label>
+        <label class="sim-control" for="sim-offset-x">
+          <span class="control-row"><span>Dipole offset x/R</span><output for="sim-offset-x" data-output="offsetX">0.15</output></span>
+          <input id="sim-offset-x" data-parameter="offsetX" type="range" min="-0.35" max="0.35" value="0.15" step="0.01">
+        </label>
+        <label class="sim-control" for="sim-offset-y">
+          <span class="control-row"><span>Dipole offset y/R</span><output for="sim-offset-y" data-output="offsetY">0.00</output></span>
+          <input id="sim-offset-y" data-parameter="offsetY" type="range" min="-0.35" max="0.35" value="0" step="0.01">
+        </label>
+        <label class="sim-control" for="sim-offset-z">
+          <span class="control-row"><span>Dipole offset z/R</span><output for="sim-offset-z" data-output="offsetZ">−0.10</output></span>
+          <input id="sim-offset-z" data-parameter="offsetZ" type="range" min="-0.35" max="0.35" value="-0.10" step="0.01">
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Star and observer</legend>
       <label class="sim-control" for="sim-mass">
         <span class="control-row"><span>Mass</span><output for="sim-mass" data-output="mass">1.4 M☉</output></span>
         <input id="sim-mass" data-parameter="mass" type="range" min="1.0" max="2.2" value="1.4" step="0.05">
@@ -68,42 +89,22 @@ slug: home
         <span class="control-row"><span>Observer inclination</span><output for="sim-inclination" data-output="inclination">60°</output></span>
         <input id="sim-inclination" data-parameter="inclination" type="range" min="5" max="90" value="60" step="1">
       </label>
-      <label class="sim-control" for="sim-colatitude">
-        <span class="control-row"><span>Spot colatitude</span><output for="sim-colatitude" data-output="colatitude">45°</output></span>
-        <input id="sim-colatitude" data-parameter="colatitude" type="range" min="5" max="90" value="45" step="1">
-      </label>
-      <label class="sim-control" for="sim-spot-radius">
-        <span class="control-row"><span>Spot radius</span><output for="sim-spot-radius" data-output="spotRadius">18°</output></span>
-        <input id="sim-spot-radius" data-parameter="spotRadius" type="range" min="4" max="40" value="18" step="1">
-      </label>
       <label class="sim-control" for="sim-spin">
         <span class="control-row"><span>Spin frequency</span><output for="sim-spin" data-output="spin">300 Hz</output></span>
-        <input id="sim-spin" data-parameter="spin" type="range" min="0" max="700" value="300" step="10">
+        <input id="sim-spin" data-parameter="spin" type="range" min="100" max="700" value="300" step="10">
       </label>
+      </fieldset>
       <label class="sim-control" for="sim-phase">
         <span class="control-row"><span>Rotation phase</span><output for="sim-phase" data-output="phase">0.00</output></span>
         <input id="sim-phase" data-parameter="phase" type="range" min="0" max="1" value="0" step="0.01">
       </label>
-      <label class="sim-check"><input data-parameter="antipodal" type="checkbox" checked> Add antipodal spot</label>
     </form>
 
     <div class="sim-results">
       <div class="sim-figures">
         <figure class="sim-figure">
-          <svg data-star-view viewBox="0 0 280 280" role="img" aria-labelledby="star-view-title star-view-desc">
-            <title id="star-view-title">Neutron-star hotspot geometry</title>
-            <desc id="star-view-desc">Projected stellar surface and emitting regions at the selected rotation phase.</desc>
-            <defs><clipPath id="star-clip"><circle cx="140" cy="140" r="112"/></clipPath></defs>
-            <circle class="star-disc" cx="140" cy="140" r="112"/>
-            <g class="star-grid" clip-path="url(#star-clip)">
-              <ellipse cx="140" cy="140" rx="112" ry="40"/>
-              <ellipse cx="140" cy="140" rx="52" ry="112"/>
-              <path d="M28 140H252"/>
-            </g>
-            <line class="star-axis" data-star-axis x1="140" y1="24" x2="140" y2="256"/>
-            <g data-spot-layer clip-path="url(#star-clip)"></g>
-          </svg>
-          <figcaption>Projected surface at the selected phase</figcaption>
+          <canvas data-temperature-map width="480" height="260" role="img" aria-label="Physics-motivated off-center dipole surface-heating map"></canvas>
+          <figcaption>Surface temperature proxy · longitude × colatitude</figcaption>
         </figure>
         <figure class="sim-figure">
           <svg data-lightcurve viewBox="0 0 520 240" role="img" aria-labelledby="curve-title curve-desc">
@@ -123,9 +124,9 @@ slug: home
       <div class="sim-readout" aria-live="polite">
         <span>Compactness <strong data-readout="compactness">0.345</strong></span>
         <span>Pulsed fraction <strong data-readout="pulsedFraction">—</strong></span>
-        <span>Visible samples <strong data-readout="visibleSamples">—</strong></span>
+        <span>Heated surface <strong data-readout="heatedFraction">—</strong></span>
       </div>
-      <p class="method-note">This educational forward model numerically integrates circular surface elements over a Schwarzschild star, using a fast light-bending approximation and special-relativistic Doppler boosting. It is recomputed from the controls; it is not a fit to observational data and does not reproduce the full atmosphere, detector-response, oblateness, or time-delay treatment used in research inference.</p>
+      <p class="method-note">The surface map ports the off-center-dipole current prescription used in Huang & Chen (2025): open-field current is evaluated across the star and converted to a temperature proxy. The light curve integrates that nonuniform map with Schwarzschild light bending and Doppler boosting. This browser calculation uses generic parameters and is not an observational fit; the research pipeline additionally includes atmosphere spectra, exact ray-tracing tables, oblateness, time delays, and detector response.</p>
       <noscript><p class="method-note">JavaScript is required to change parameters; the initial curve above remains as a static illustration.</p></noscript>
     </div>
   </div>
